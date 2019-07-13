@@ -16,6 +16,7 @@ These apps and platforms are NOT _decentralized_ but are all open source. Some a
 
 #### Social Networking
 
+* [Democracy.earth](https://democracy.earth/) - Voting platform leveraging Ethereum. Not decentralized.
 * [Diaspora](https://diasporafoundation.org/) - Federated social network. AGPL licensed
 * [Elgg](https://elgg.org/) - Social networking engine
 * [Frendica](https://friendi.ca/) - Federated Facebook alternative. AGPL licensed
