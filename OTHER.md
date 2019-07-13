@@ -1,4 +1,4 @@
-## Non-decentralized open-source social networks and collaboration apps and platforms
+## Non-decentralized, open-source social networks and collaboration applications and platforms
 
 ### Contents
 * [Purpose](#purpose)
@@ -10,7 +10,7 @@
 
 ### Purpose
 
-These apps and platforms are NOT _decentralized_ but are all open source. Some are federated. This is a curated list of some interesting experiments to keep an eye on.
+These apps and platforms are NOT _decentralized_ but are all open source. Some are federated. This is a curated list of some interesting experiments to keep an eye on. See the more complete decentralized and awesome guide in this repo! 
 
 ### Applications and Platforms
 
