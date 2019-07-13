@@ -11,7 +11,7 @@
 * [License](#license)
 
 ### Purpose
-The purpose of this document is to provide an overview and guide to existing open-source decentralized applications and platforms for social interaction, social networking, social media, social engagement and creative or project-based collaboration (e.g. Decentralized Autonomous Organizations).
+The purpose of this document is to provide an overview and guide to existing open-source decentralized applications (dapps) and platforms for social interaction, social networking, social media, social engagement and creative or project-based collaboration (e.g. Decentralized Autonomous Organizations).
 
 For our purposes, **decentralized** means that these apps are peer-to-peer (P2P) and/or rely on decentralized infrastructure like public, open-source blockchains (e.g. Ethereum or Bitcoin) or protocols (e.g. IPFS, Secure Scuttlebut, Dat, Gun, WebTorrent, ActivityPub). If they rely on blockchains or protocols like these, it must be practically possible for users to run their own nodes without having to pay fees to any centralized entity.
 
@@ -79,23 +79,26 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 * [Colony platform](https://colony.io/)
 * [Moloch platform](https://github.com/MolochVentures/moloch)
 
+###### Ethereum, other
+
+* [Gitcoin](https://gitcoin.co/) - Crowdfunding for software projects
 
 ##### Bitcoin blockchain based
 
-* [Blockstack platform](https://blockstack.org/) - [Various dapps](https://blockstack.org/try-blockstack) are available. Some but not all are open source
+* [Blockstack platform](https://blockstack.org/) - [Various dapps](https://blockstack.org/try-blockstack) are available, including [Graphite](https://www.graphitedocs.com/), a Google Docs/Sheets clone. Some but not all are open source
 
 ##### Git based
 
-* [git-ssb](https://github.com/noffle/git-ssb-intro) - Git over Secure Scuttlebut
 * [git-remote-ipfs](https://github.com/cryptix/git-remote-ipfs/) - Git push/pull to IPFS
+* [git-ssb](https://github.com/noffle/git-ssb-intro) - Git over Secure Scuttlebut
 * [Mango](https://github.com/axic/mango) - Git using Ethereum, IPFS
 * [Radicle](http://www.radicle.xyz/) - using IPFS
 
-###### Meta
+##### Meta
 * An overview of existing Ethereum-based DAO (decentralized autonomous organization) platforms (6/16/19): [Aragon, DAOStack, Colony, Moloch](https://kronosapiens.github.io/blog/2019/06/16/aragon-daostack-colony-moloch.html)
 
 #### Decentralized protocols
-These are the underlying decentralized protocols underlying the apps and platforms above
+These are the underlying decentralized protocols underlying the dapps and platforms above
 
 * [ActivityPub](https://activitypub.rocks/)
 * [Bitcoin blockchain](https://bitcoin.org/en/)
