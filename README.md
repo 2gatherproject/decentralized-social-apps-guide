@@ -47,15 +47,15 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 #### Social Networking
 
-* [Briar](https://briarproject.org/) - WhatsApp clone with security focus
-* [DTube](https://d.tube/) - Youtube clone on the Steemit blockchain
+* [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
+* [DTube](https://d.tube/) - Youtube clone using Steemit blockchain and IPFS. GPL licensed
 * [Iris](https://irislib.github.io/) - Social sharing using Gun and IPFS
 * [Jami](https://jami.net/) - WhatsApp clone
 * [Junto](https://junto.foundation/) - Social network on Holochain
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
-* [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut
-* [Steemit](https://steemit.com/) - Twitter clone on Steem blockchain
+* [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
+
 
 ##### Platforms
 
