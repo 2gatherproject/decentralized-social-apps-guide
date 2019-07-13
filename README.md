@@ -82,17 +82,25 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 ###### Ethereum, other
 
 * [Gitcoin](https://gitcoin.co/) - Crowdfunding for software projects
+* [BroncoVotes](https://github.com/pmarella2/BroncoVotes) - Ethereum based secure voting platform
+
 
 ##### Bitcoin blockchain based
 
 * [Blockstack platform](https://blockstack.org/) - [Various dapps](https://blockstack.org/try-blockstack) are available, including [Graphite](https://www.graphitedocs.com/), a Google Docs/Sheets clone. Some but not all are open source
 
-##### Git based
+##### Github/Gitlab alternatives
 
 * [git-remote-ipfs](https://github.com/cryptix/git-remote-ipfs/) - Git push/pull to IPFS
 * [git-ssb](https://github.com/noffle/git-ssb-intro) - Git over Secure Scuttlebut
 * [Mango](https://github.com/axic/mango) - Git using Ethereum, IPFS
 * [Radicle](http://www.radicle.xyz/) - using IPFS
+
+##### Other
+
+* [Secret voting (Enigma)](https://blog.enigma.co/secret-voting-smart-contracts-with-enigma-a-walkthrough-5bb976164753) using Enigma (see below)
+* [Secret voting (Oasis)](https://docs.oasiscloud.io/en/latest/secret-ballot/) - using Oasis (see below)
+
 
 ##### Meta
 * An overview of existing Ethereum-based DAO (decentralized autonomous organization) platforms (6/16/19): [Aragon, DAOStack, Colony, Moloch](https://kronosapiens.github.io/blog/2019/06/16/aragon-daostack-colony-moloch.html)
