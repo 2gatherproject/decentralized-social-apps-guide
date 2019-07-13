@@ -19,6 +19,7 @@ These apps and platforms are NOT _decentralized_ but are all open source. Some a
 * [Diaspora](https://diasporafoundation.org/) - Federated social network. AGPL licensed
 * [Elgg](https://elgg.org/) - Social networking engine
 * [Frendica](https://friendi.ca/) - Federated Facebook alternative. AGPL licensed
+* [Lobsters](https://github.com/lobsters/lobsters) - Reddit alternative
 * [Mastodon](https://joinmastodon.org/) - Federated Twitter clone. AGPL licensed
 * [Minds](https://www.minds.com) - Facebook clone with custom cryptocurrency using elgg social networking engine. AGPL licensed
 * [PixelFed](https://pixelfed.org/) - Federated Instagram alternative. AGPL licensed
