@@ -1,4 +1,4 @@
-## Decentralized Open-Source Social Networking and Collaboration Applications and Platforms
+## Decentralized, Open-Source Social Networking and Collaboration Applications and Platforms
 
 ### Contents
 * [Purpose](#purpose)
