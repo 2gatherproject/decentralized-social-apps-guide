@@ -61,6 +61,7 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and IPFS
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
+* [Textile platform](https://textile.io/) - Using IPFS
 
 
 
@@ -81,7 +82,7 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 ###### Ethereum, other
 
-* [Gitcoin](https://gitcoin.co/) - Crowdfunding for software projects
+* [Gitcoin](https://gitcoin.co/) - Bounties for software projects
 * [BroncoVotes](https://github.com/pmarella2/BroncoVotes) - Ethereum based secure voting platform
 * [PeepsDemocracy](https://www.peepsdemocracy.com/) - ActBlue alternative. Nothing there yet? Open source?
 
