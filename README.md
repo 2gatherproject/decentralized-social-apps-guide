@@ -6,7 +6,9 @@
 * [Applications and Platforms](#applications-and-platforms)
     * [Social Networking](#social-networking)
     * [Collaboration](#collaboration)
+    * [Identity](#identity)
     * [Decentralized Protocols](#decentralized-protocols)
+* [Concepts](#concepts)    
 * [Contributions](#contributions)
 * [License](#license)
 
@@ -59,7 +61,7 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 ##### Platforms
 
-* [3box](https://3box.io/) Nascent social networking platform using Ethereum and IPFS
+* [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Textile platform](https://textile.io/) - Using IPFS
 
@@ -71,6 +73,7 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 * An overview of existing social networking options including decentralized ones (6/26/19): [So You Want to Leave Facebook](https://hackernoon.com/so-you-want-to-leave-facebook-1ab3603f164a)
 
 #### Collaboration
+
 
 ##### Ethereum blockchain based
 
@@ -102,29 +105,62 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 * [Secret voting (Enigma)](https://blog.enigma.co/secret-voting-smart-contracts-with-enigma-a-walkthrough-5bb976164753) using Enigma (see below)
 * [Secret voting (Oasis)](https://docs.oasiscloud.io/en/latest/secret-ballot/) - using Oasis (see below)
+* [Trellis](https://github.com/automerge/trellis) - Trello clone based on MPL (Automerge & WebRTC)
 
 
 ##### Meta
 * An overview of existing Ethereum-based DAO (decentralized autonomous organization) platforms (6/16/19): [Aragon, DAOStack, Colony, Moloch](https://kronosapiens.github.io/blog/2019/06/16/aragon-daostack-colony-moloch.html)
 
+#### Identity
+
+Identity services are a key requirement of most social/collaborative apps. Decentralized and self-sovereign identity platforms and "wallets" are listed here.
+
+* [IDM](https://github.com/ipfs-shipyard/pm-idm) General purpose identity manager for DIDs
+* [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy)
+* [MetaMask](https://metamask.io/) Ethereum wallet/identity manager
+* [uPort](https://www.uport.me/) Ethereum wallet/identity manager
+
+##### Meta
+
+* [Decentralized Identity Foundation](https://identity.foundation/)
+
 #### Decentralized protocols
 These are the underlying decentralized protocols underlying the dapps and platforms above
 
 * [ActivityPub](https://activitypub.rocks/)
+* [Automerge](https://github.com/automerge/automerge) - CRDT implementation
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
 * [Dat](https://www.datprotocol.com/)
 * [Enigma](https://enigma.co/) - Secure protocol extended from Ethereum
 * [Ethereum blockchain](https://www.ethereum.org/)
-* [Gun](https://github.com/amark/gun)
+* [Gun](https://github.com/amark/gun) - CRDT implementation
 * [Holochain](https://holochain.org/)
-* [IPFS](https://ipfs.io/)
+* [LibP2P](https://libp2p.io/)
+* [IPFS](https://ipfs.io/) - libp2p based
+* [MPL](https://github.com/automerge/mpl) - Using automerge and WebRTC
 * [Oasis](https://www.oasislabs.com/) - Secure protocol on extended from Ethereum
+* [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Steem blockchain](https://steem.com/)
 * [WebRTC](https://webrtc.org/)
 
 
+### Concepts 
+
+Some relevant concepts
+
+* [Blockchain](https://en.wikipedia.org/wiki/Blockchain)
+* [Byzantine Faults](https://en.wikipedia.org/wiki/Byzantine_fault) A type of challenge facing decentralized systems
+* [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) Conflict free replicated data types
+* [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
+* [DIDs](https://medium.com/moxystudio/the-need-for-decentralized-identity-4d369408e10e) Decentralized Identifiers
+* [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
+* [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
+* [Smart contracts](https://en.wikipedia.org/wiki/Smart_contract)
+* [SMC](https://en.wikipedia.org/wiki/Secure_multi-party_computation) - Secure multi-party computation
+* [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
+* [TEEs](https://en.wikipedia.org/wiki/Trusted_execution_environment) Trusted execution environments, used in current versions of secure/private smart contracts
 
 ### Contributions
 Contributions aligned with the stated purpose and consistent with our [code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct) are welcome! Make a pull request to suggest additional resources or enhance this document. Edits to pull requests may be requested for placement, accuracy. Contributions that highlight the criteria mentioned in the roadmap above are especially appreciated.
