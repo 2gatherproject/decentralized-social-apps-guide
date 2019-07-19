@@ -126,7 +126,7 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 * [Decentralized Identity Foundation](https://identity.foundation/)
 
 #### Decentralized protocols
-These are the underlying decentralized protocols underlying the dapps and platforms above
+These are the underlying decentralized protocols powering the dapps and platforms above
 
 * [ActivityPub](https://activitypub.rocks/)
 * [Automerge](https://github.com/automerge/automerge) - CRDT implementation
@@ -139,7 +139,7 @@ These are the underlying decentralized protocols underlying the dapps and platfo
 * [Holochain](https://holochain.org/)
 * [LibP2P](https://libp2p.io/)
 * [IPFS](https://ipfs.io/) - libp2p based
-* [MPL](https://github.com/automerge/mpl) - Using automerge and WebRTC
+* [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
 * [Oasis](https://www.oasislabs.com/) - Secure protocol on extended from Ethereum
 * [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
