@@ -85,6 +85,7 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 ###### Ethereum, other
 
+* [Alchemy](https://daostack.io/alchemy) Proposal voting/funding app built on DAOStack
 * [Gitcoin](https://gitcoin.co/) - Bounties for software projects
 * [BroncoVotes](https://github.com/pmarella2/BroncoVotes) - Ethereum based secure voting platform
 * [PeepsDemocracy](https://www.peepsdemocracy.com/) - ActBlue alternative. Nothing there yet? Open source?
