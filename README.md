@@ -118,6 +118,7 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 * [IDM](https://github.com/ipfs-shipyard/pm-idm) General purpose identity manager for DIDs
 * [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy)
 * [MetaMask](https://metamask.io/) Ethereum wallet/identity manager
+* [Trezor](https://trezor.io/) Open-source hardware wallet/identity manager
 * [uPort](https://www.uport.me/) Ethereum wallet/identity manager
 
 ##### Meta
