@@ -2,13 +2,14 @@
 
 ### Contents
 * [Purpose](#purpose)
-* [Roadmap](#roadmap)
 * [Applications and Platforms](#applications-and-platforms)
     * [Social Networking](#social-networking)
     * [Collaboration](#collaboration)
     * [Identity](#identity)
     * [Decentralized Protocols](#decentralized-protocols)
+* [Common Issues](#common-issues)
 * [Concepts](#concepts)    
+* [Roadmap](#roadmap)
 * [Contributions](#contributions)
 * [License](#license)
 
@@ -22,27 +23,6 @@ _Decentralized_ apps and platforms are distinguished from _centralized_ ones (e.
 Only _open-source_ apps and platforms will be listed here.
 
 This is a curated list. More developed apps and platforms with more features and/or a wider user base may be highlighted, but all apps/platforms that meet the overall purpose will be listed here if submitted.
-
-A question for all decentralized social networking and collaboration tools is how to pay for the underlying storage and computing cycles needed to support it. Some of the solutions below require you to pay (in one form or another) to "post" content or initiate an action. Others make no guarantees that your content will be available to others unless you host it yourself and keep your computer constantly on, and then people across the world may be only able to access it very slowly.
-
-
-### Roadmap
-
-This is a work in progress! Please help extend it and keep it up to date.
-
-It is hoped that in the future a comparison of the various apps and platforms will be provided. Some of the criteria that will be worth highlighting are:
-* Availability / use of encryption
-* Privacy and management of personal data
-* Underlying technologies used
-* Adoption and use
-* Level of maintenance and ongoing development
-* License type
-* Features provided
-* Ability to do financial transactions
-* Sponsors / contributors
-* Degree of _lock in_ that prevents leaving or migrating from the app / platform
-* Degree of integration available with other networks and tools
-* Performance / speed
 
 
 ### Applications and Platforms
@@ -77,6 +57,11 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 ##### Ethereum blockchain based
 
+###### Apps
+
+* [Alchemy](https://daostack.io/alchemy) Proposal voting/funding app built on DAOStack
+* [Gitcoin](https://gitcoin.co/) - Bounties for software projects
+
 ###### DAO platforms
 * [Aragon platform](https://aragon.one/)
 * [DAOStack platform](https://daostack.io/)
@@ -85,8 +70,6 @@ It is hoped that in the future a comparison of the various apps and platforms wi
 
 ###### Ethereum, other
 
-* [Alchemy](https://daostack.io/alchemy) Proposal voting/funding app built on DAOStack
-* [Gitcoin](https://gitcoin.co/) - Bounties for software projects
 * [BroncoVotes](https://github.com/pmarella2/BroncoVotes) - Ethereum based secure voting platform
 * [PeepsDemocracy](https://www.peepsdemocracy.com/) - ActBlue alternative. Nothing there yet? Open source?
 
@@ -147,6 +130,18 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Steem blockchain](https://steem.com/)
 * [WebRTC](https://webrtc.org/)
 
+### Common Issues
+
+#### Paying for storage and services
+
+A question for all decentralized social networking and collaboration tools is how to pay for the underlying storage and computing cycles needed to support it. Some of the solutions above require you to pay (in one form or another) to "post" content or initiate an action. Others make no guarantees that your content will be available to others unless you host it yourself and keep your computer constantly on, and then people across the world may be only able to access it very slowly.
+
+#### Secure Computation
+
+In a world in which the decentralized devices that interact with each other may be low power devices like phones, and in which the security of given nodes in the network may be untrustworthy, it is essential to be able to secure data and also compute on that data securely. This will require end-to-end encryption solutions in which data is encrypted on our individual devices.
+
+It will also require secure _private smart contracts_ and _secure multi-party computation_ that can operate on encrypted data safely and in a "trustless" way. There are various new approaches to this including _trusted execution environments_ and _homomorphic encryption_.
+
 
 ### Concepts 
 
@@ -156,13 +151,35 @@ Some relevant concepts
 * [Byzantine Faults](https://en.wikipedia.org/wiki/Byzantine_fault) A type of challenge facing decentralized systems
 * [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) Conflict free replicated data types
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
+* [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
 * [DIDs](https://medium.com/moxystudio/the-need-for-decentralized-identity-4d369408e10e) Decentralized Identifiers
+* [End-to-End Encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)
+* [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
 * [Smart contracts](https://en.wikipedia.org/wiki/Smart_contract)
 * [SMC](https://en.wikipedia.org/wiki/Secure_multi-party_computation) - Secure multi-party computation
 * [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
 * [TEEs](https://en.wikipedia.org/wiki/Trusted_execution_environment) Trusted execution environments, used in current versions of secure/private smart contracts
+
+### Roadmap
+
+This is a work in progress! Please help extend it and keep it up to date.
+
+It is hoped that in the future a comparison of the various apps and platforms will be provided. Some of the criteria that will be worth highlighting are:
+* Availability / use of encryption
+* Privacy and management of personal data
+* Underlying technologies used
+* Adoption and use
+* Level of maintenance and ongoing development
+* License type
+* Features provided
+* Ability to do financial transactions
+* Sponsors / contributors
+* Degree of _lock in_ that prevents leaving or migrating from the app / platform
+* Degree of integration available with other networks and tools
+* Performance / speed
+
 
 ### Contributions
 Contributions aligned with the stated purpose and consistent with our [code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct) are welcome! Make a pull request to suggest additional resources or enhance this document. Edits to pull requests may be requested for placement, accuracy. Contributions that highlight the criteria mentioned in the roadmap above are especially appreciated.
