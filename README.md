@@ -43,8 +43,9 @@ This is a curated list. More developed apps and platforms with more features and
 
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
+* [Matrix platform / Riot IM](https://matrix.org/) - Matrix is currently federated/distributed, but they are looking into a [fully decentralized P2P version with an innovative approach](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) that puts the federated server onto people's devices! Something to watch. Strongly private group messaging using MegOlm double-ratchet.
+* [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
 * [Textile platform](https://textile.io/) - Using IPFS
-
 
 
 ##### Meta
@@ -80,6 +81,7 @@ This is a curated list. More developed apps and platforms with more features and
 
 ##### Github/Gitlab alternatives
 
+* [git-bug](https://github.com/MichaelMure/git-bug.git) Decentralized issue tracking using git itself
 * [git-remote-ipfs](https://github.com/cryptix/git-remote-ipfs/) - Git push/pull to IPFS
 * [git-ssb](https://github.com/noffle/git-ssb-intro) - Git over Secure Scuttlebut
 * [Mango](https://github.com/axic/mango) - Git using Ethereum, IPFS
@@ -100,10 +102,15 @@ This is a curated list. More developed apps and platforms with more features and
 Identity services are a key requirement of most social/collaborative apps. Decentralized and self-sovereign identity platforms and "wallets" are listed here.
 
 * [IDM](https://github.com/ipfs-shipyard/pm-idm) General purpose identity manager for DIDs
+* [iden3](https://iden3.io/) Ethereum identity platform leveraging zk-SNARKs (See below)
+* [ipid](https://github.com/jonnycrunch/ipid) - DIDs using IPFS
 * [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy)
 * [MetaMask](https://metamask.io/) Ethereum wallet/identity manager
+* [Reclaim:ID](https://reclaimid.gitlab.io/) - Decentralized identity on GNU:net with OpenID interface
 * [Trezor](https://trezor.io/) Open-source hardware wallet/identity manager
 * [uPort](https://www.uport.me/) Ethereum wallet/identity manager
+
+
 
 ##### Meta
 
@@ -119,6 +126,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Dat](https://www.datprotocol.com/)
 * [Enigma](https://enigma.co/) - Secure protocol extended from Ethereum
 * [Ethereum blockchain](https://www.ethereum.org/)
+* [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
 * [Gun](https://github.com/amark/gun) - CRDT implementation
 * [Holochain](https://holochain.org/)
 * [LibP2P](https://libp2p.io/)
@@ -153,14 +161,18 @@ Some relevant concepts
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
 * [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
 * [DIDs](https://medium.com/moxystudio/the-need-for-decentralized-identity-4d369408e10e) Decentralized Identifiers
+* [Double-ratchet encryption](https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm) - Private messaging with "future secrecy"
+* [Decentralized AI](https://towardsdatascience.com/everything-you-need-to-know-about-decentralized-ai-3abdb052324b)
 * [End-to-End Encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)
 * [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
+* [MegOlm](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md) - A double-ratchet encryption algorithm used by Matrix for private group messaging
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
 * [Smart contracts](https://en.wikipedia.org/wiki/Smart_contract)
 * [SMC](https://en.wikipedia.org/wiki/Secure_multi-party_computation) - Secure multi-party computation
 * [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
 * [TEEs](https://en.wikipedia.org/wiki/Trusted_execution_environment) Trusted execution environments, used in current versions of secure/private smart contracts
+* [zk-SNARKs and zk-STARKs](https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof) - Non-interactive zero-knowledge proofs. zk-SNARKS require trusted third-party setup, zk-STARKs do not.
 
 ### Roadmap
 
