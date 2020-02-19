@@ -37,6 +37,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
+* [Textile Photos](https://github.com/textileio/photos) - A photo sharing app using Textile (See below)
 
 
 ##### Platforms
