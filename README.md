@@ -44,7 +44,7 @@ This is a curated list. More developed apps and platforms with more features and
 
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
-* [Matrix platform / Riot IM](https://matrix.org/) - Matrix is currently federated/distributed, but they are looking into a [fully decentralized P2P version with an innovative approach](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) that puts the federated server onto people's devices! Something to watch. Strongly private group messaging using MegOlm double-ratchet.
+* [Matrix platform](https://matrix.org/) - Matrix is currently federated/distributed, but they are looking into a [fully decentralized P2P version with an innovative approach](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) that puts the federated server onto people's devices! Something to watch. Strongly private group messaging using MegOlm double-ratchet. [Element](https://element.io/), formerly known as Riot IM, is the reference client for Matrix.
 * [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
 * [Textile platform](https://textile.io/) - Using IPFS
 
@@ -102,8 +102,10 @@ This is a curated list. More developed apps and platforms with more features and
 
 Identity services are a key requirement of most social/collaborative apps. Decentralized and self-sovereign identity platforms and "wallets" are listed here.
 
+* [Ceramic](https://www.ceramic.network/) DIDs and linked documents on IPFS. Affiliated with 3Box and Ethereum ecosystem. (Not affiliated with Decentralized Identity Foundation?)
 * [IDM](https://github.com/ipfs-shipyard/pm-idm) General purpose identity manager for DIDs
 * [iden3](https://iden3.io/) Ethereum identity platform leveraging zk-SNARKs (See below)
+* [ION](https://github.com/decentralized-identity/ion) DID Method implementation using the Sidetree protocol on top of Bitcoin. From [Decentralized Identity Foundation](https://identity.foundation/).
 * [ipid](https://github.com/jonnycrunch/ipid) - DIDs using IPFS
 * [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy)
 * [MetaMask](https://metamask.io/) Ethereum wallet/identity manager
