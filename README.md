@@ -144,7 +144,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 
 ### Common Issues
 
-#### Paying for storage and services
+#### Paying for Storage and Services
 
 A question for all decentralized social networking and collaboration tools is how to pay for the underlying storage and computing cycles needed to support it. Some of the solutions above require you to pay (in one form or another) to "post" content or initiate an action (e.g. most blockchains). Others make no guarantees that your content will be available to others unless you host it yourself and keep your computer constantly on, and then people across the world may be only able to access it very slowly (e.g. IPFS).
 
@@ -154,7 +154,7 @@ In a world in which the decentralized devices that interact with each other may 
 
 It will also require secure _private smart contracts_ and _secure multi-party computation_ that can operate on encrypted data safely and in a "trustless" way. There are various new approaches to this including _trusted execution environments_ and _homomorphic encryption_.
 
-#### Development process considerations
+#### Development Process Considerations
 
 Even when a project is fully decentralized in its operation and technically open source, its may be tightly controlled by a single corporation. No software that is controlled centrally like this can be considered truly decentralized. Some process considerations to evaluate when considering a project include:
 
@@ -184,7 +184,7 @@ Some relevant concepts
 * [MegOlm](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md) - A double-ratchet encryption algorithm used by Matrix for private group messaging
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
-* [Secret contracts](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) - A form of secure multi-party computation. Privacy protecting smart contracts
+* [Secret contracts](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) - A form of secure multi-party computation. Privacy protecting smart contracts. Also sometimes called "private contracts" or "private smart contracts"
 * [Smart contracts](https://en.wikipedia.org/wiki/Smart_contract)
 * [SMC](https://en.wikipedia.org/wiki/Secure_multi-party_computation) - Secure multi-party computation
 * [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
