@@ -120,7 +120,7 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 
 * [Decentralized Identity Foundation](https://identity.foundation/)
 
-#### Decentralized protocols
+#### Decentralized Protocols
 These are the underlying decentralized protocols powering the dapps and platforms above
 
 * [ActivityPub](https://activitypub.rocks/)
