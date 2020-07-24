@@ -30,6 +30,7 @@ This is a curated list. More developed apps and platforms with more features and
 #### Social Networking
 
 * [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
+* [Element](https://element.io/), formerly known as Riot IM, is the reference messaging client for the Matrix platform. Matrix is currently federated but a fully decentralized version is under active development (see below). Strongly private group messaging using MegOlm double-ratchet. Backed by [Automattic](https://matrix.org/blog/2020/05/21/welcoming-automattic-to-matrix), the creators of Wordpress, among others. Used by the [French](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app) and [German](https://www.heise.de/newsticker/meldung/Bundeswehr-setzt-kuenftig-auf-Matrix-als-Messenger-4719474.html) governments and other clients. Apache 2.0 licensed
 * [DTube](https://d.tube/) - Youtube clone using Steemit blockchain and IPFS. GPL licensed
 * [Iris](https://irislib.github.io/) - Social sharing using Gun and IPFS
 * [Jami](https://jami.net/) - WhatsApp clone
@@ -44,7 +45,7 @@ This is a curated list. More developed apps and platforms with more features and
 
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
-* [Matrix platform](https://matrix.org/) - Matrix is currently federated/distributed, but they are looking into a [fully decentralized P2P version with an innovative approach](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) that puts the federated server onto people's devices! Something to watch. Strongly private group messaging using MegOlm double-ratchet. [Element](https://element.io/), formerly known as Riot IM, is the reference client for Matrix.
+* [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
 * [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
 * [Textile platform](https://textile.io/) - Using IPFS
 
@@ -127,7 +128,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
 * [Dat](https://www.datprotocol.com/)
-* [Enigma](https://enigma.co/) - Secure protocol extended from Ethereum
+* [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
 * [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
 * [Gun](https://github.com/amark/gun) - CRDT implementation
@@ -135,7 +136,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [LibP2P](https://libp2p.io/)
 * [IPFS](https://ipfs.io/) - libp2p based
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
-* [Oasis](https://www.oasislabs.com/) - Secure protocol on extended from Ethereum
+* [Oasis](https://www.oasislabs.com/) - Secure "secret contract" protocol extended from Ethereum
 * [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Steem blockchain](https://steem.com/)
@@ -153,6 +154,18 @@ In a world in which the decentralized devices that interact with each other may 
 
 It will also require secure _private smart contracts_ and _secure multi-party computation_ that can operate on encrypted data safely and in a "trustless" way. There are various new approaches to this including _trusted execution environments_ and _homomorphic encryption_.
 
+#### Development process considerations
+
+Even when a project is fully decentralized in its operation and technically open source, its may be tightly controlled by a single corporation. No software that is controlled centrally like this can be considered truly decentralized. Some process considerations to evaluate when considering a project include:
+
+* Is a development roadmap published?
+* Is there an open and transparent process for selecting priorities for bug fixes and new features to be added to the development roadmap?
+* Are pull requests and code contributions welcomed from everyone? Are pull requests processed in a timely and friendly manner? Are "good first issues" tagged, etc?
+* Is there a welcoming Code of Conduct that is published and adhered to?
+* Are there open discussion rooms where project maintainers and contributors can be reached with questions and issues in a timely manner?
+* Are forks and alternatives welcomed or discouraged?
+* Is the project well documented and regularly updated?
+* Is the project designed in an extendable way?
 
 ### Concepts 
 
@@ -171,6 +184,7 @@ Some relevant concepts
 * [MegOlm](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md) - A double-ratchet encryption algorithm used by Matrix for private group messaging
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
+* [Secret contracts](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) - A form of secure multi-party computation. Privacy protecting smart contracts
 * [Smart contracts](https://en.wikipedia.org/wiki/Smart_contract)
 * [SMC](https://en.wikipedia.org/wiki/Secure_multi-party_computation) - Secure multi-party computation
 * [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
