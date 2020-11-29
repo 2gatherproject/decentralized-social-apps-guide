@@ -1,4 +1,4 @@
-## Decentralized, Open-Source Social Networking and Collaboration Applications and Platforms
+## Awesome Decentralized, Open-Source Social Networking and Collaboration Applications and Platforms
 
 ### Contents
 * [Purpose](#purpose)
@@ -7,8 +7,10 @@
     * [Collaboration](#collaboration)
     * [Identity](#identity)
     * [Decentralized Protocols](#decentralized-protocols)
+    * [Decentralized Databases](#decentralized-databases)
 * [Common Issues](#common-issues)
-* [Concepts](#concepts)    
+* [Concepts](#concepts)  
+* [Related Awesome Lists](#related-awesome-lists)  
 * [Roadmap](#roadmap)
 * [Contributions](#contributions)
 * [License](#license)
@@ -29,12 +31,14 @@ This is a curated list. More developed apps and platforms with more features and
 
 #### Social Networking
 
+* [Aether](https://getaether.net/) - Open source, self-governing communities with auditable moderation and mod elections
 * [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
 * [Element](https://element.io/), formerly known as Riot IM, is the reference messaging client for the Matrix platform. Matrix is currently federated but a fully decentralized version is under active development (see below). Strongly private group messaging using MegOlm double-ratchet. Backed by [Automattic](https://matrix.org/blog/2020/05/21/welcoming-automattic-to-matrix), the creators of Wordpress, among others. Used by the [French](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app) and [German](https://www.heise.de/newsticker/meldung/Bundeswehr-setzt-kuenftig-auf-Matrix-als-Messenger-4719474.html) governments and other clients. Apache 2.0 licensed
 * [DTube](https://d.tube/) - Youtube clone using Steemit blockchain and IPFS. GPL licensed
 * [Iris](https://irislib.github.io/) - Social sharing using Gun and IPFS
 * [Jami](https://jami.net/) - WhatsApp clone
 * [Junto](https://junto.foundation/) - Social network on Holochain
+* [Lemmy](https://github.com/LemmyNet/lemmy) - An alternative to Reddit. Curently only federated, but because it is in Rust it could be ported to WASM and made fully decentralized, like Matrix (see below)
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
@@ -95,7 +99,6 @@ This is a curated list. More developed apps and platforms with more features and
 * [Secret voting (Oasis)](https://docs.oasiscloud.io/en/latest/secret-ballot/) - using Oasis (see below)
 * [Trellis](https://github.com/automerge/trellis) - Trello clone based on MPL (Automerge & WebRTC)
 
-
 ##### Meta
 * An overview of existing Ethereum-based DAO (decentralized autonomous organization) platforms (6/16/19): [Aragon, DAOStack, Colony, Moloch](https://kronosapiens.github.io/blog/2019/06/16/aragon-daostack-colony-moloch.html)
 
@@ -103,22 +106,24 @@ This is a curated list. More developed apps and platforms with more features and
 
 Identity services are a key requirement of most social/collaborative apps. Decentralized and self-sovereign identity platforms and "wallets" are listed here.
 
+* [DID-SIOP](https://identity.foundation/did-siop/) - OpenID protocol for self-issued (self-sovereign) identities, e.g. using a public/private key or cryptography wallet
 * [Ceramic](https://www.ceramic.network/) DIDs and linked documents on IPFS. Affiliated with 3Box and Ethereum ecosystem. (Not affiliated with Decentralized Identity Foundation?)
 * [IDM](https://github.com/ipfs-shipyard/pm-idm) General purpose identity manager for DIDs
 * [iden3](https://iden3.io/) Ethereum identity platform leveraging zk-SNARKs (See below)
 * [ION](https://github.com/decentralized-identity/ion) DID Method implementation using the Sidetree protocol on top of Bitcoin. From [Decentralized Identity Foundation](https://identity.foundation/).
 * [ipid](https://github.com/jonnycrunch/ipid) - DIDs using IPFS
 * [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy)
+* [Keycard](https://keycard.tech/) - A new type of smartcard and open source API for simple integration with crypto wallets, DApps, and hardware
 * [MetaMask](https://metamask.io/) Ethereum wallet/identity manager
 * [Reclaim:ID](https://reclaimid.gitlab.io/) - Decentralized identity on GNU:net with OpenID interface
+* [Status.im](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser
 * [Trezor](https://trezor.io/) Open-source hardware wallet/identity manager
 * [uPort](https://www.uport.me/) Ethereum wallet/identity manager
-
-
+* [Wallet Connect](https://walletconnect.org/) - Open protocol for connecting Wallets to Dapps
 
 ##### Meta
-
 * [Decentralized Identity Foundation](https://identity.foundation/)
+* [Decentralized Web Developer Survey 2020](https://medium.com/fluence-network/decentralized-web-developer-report-2020-5b41a8d86789)
 
 #### Decentralized Protocols
 These are the underlying decentralized protocols powering the dapps and platforms above
@@ -127,20 +132,30 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Automerge](https://github.com/automerge/automerge) - CRDT implementation
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
-* [Dat](https://www.datprotocol.com/)
+* [Dat](https://www.datprotocol.com/) - A mutable, identity addressed file/data sharing protocol
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
 * [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
 * [Gun](https://github.com/amark/gun) - CRDT implementation
 * [Holochain](https://holochain.org/)
 * [LibP2P](https://libp2p.io/)
-* [IPFS](https://ipfs.io/) - libp2p based
+* [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
 * [Oasis](https://www.oasislabs.com/) - Secure "secret contract" protocol extended from Ethereum
 * [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Steem blockchain](https://steem.com/)
 * [WebRTC](https://webrtc.org/)
+* [Zot](https://zotlabs.org/help/en/about/about) - Used in Aether and Hubzilla platforms
+
+#### Decentralized Databases
+* [ClickHouse](https://clickhouse.tech/) - Distributed SQL OLAP DB
+* [Cockroach DB](https://github.com/cockroachdb/cockroach) - Distributed SQL DB, which is written in Go and can be compiled to WASM to run on devices
+* [FlockDB](https://github.com/twitter-archive/flockdb) - Distributed graph database in Scala
+* [JanusGraph](https://github.com/JanusGraph/janusgraph) - Distributed graph database in Java
+* [Nebula](https://github.com/vesoft-inc/nebula) - Distributed graph database in C++
+* [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Distributed least authority object capabilities database in Python
+* [Titan](https://github.com/thinkaurelius/titan) - Distributed graph database in Java
 
 ### Common Issues
 
@@ -171,8 +186,10 @@ Even when a project is fully decentralized in its operation and technically open
 
 Some relevant concepts
 
+* [Actor Model](https://en.wikipedia.org/wiki/Actor_model) - Actor model of decentralized/concurrent computing
 * [Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 * [Byzantine Faults](https://en.wikipedia.org/wiki/Byzantine_fault) A type of challenge facing decentralized systems
+* [Confidential Computing](https://confidentialcomputing.io/) - A consortium to accelerate the adoption of Trusted Execution Environment (TEE) technologies and standards
 * [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) Conflict free replicated data types
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
 * [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
@@ -182,6 +199,7 @@ Some relevant concepts
 * [End-to-End Encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)
 * [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
 * [MegOlm](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md) - A double-ratchet encryption algorithm used by Matrix for private group messaging
+* [Object Capability](https://en.wikipedia.org/wiki/Object-capability_model) - An access control approach consisten with the actor model of decentralized/concurrent computing
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
 * [Secret contracts](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) - A form of secure multi-party computation. Privacy protecting smart contracts. Also sometimes called "private contracts" or "private smart contracts"
@@ -189,7 +207,14 @@ Some relevant concepts
 * [SMC](https://en.wikipedia.org/wiki/Secure_multi-party_computation) - Secure multi-party computation
 * [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
 * [TEEs](https://en.wikipedia.org/wiki/Trusted_execution_environment) Trusted execution environments, used in current versions of secure/private smart contracts
+* [Verifiable Credentials](https://en.wikipedia.org/wiki/Verifiable_credentials)
 * [zk-SNARKs and zk-STARKs](https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof) - Non-interactive zero-knowledge proofs. zk-SNARKS require trusted third-party setup, zk-STARKs do not.
+
+### Related Awesome Lists
+* [Decentralized ID](https://github.com/Decentralized-ID/decentralized-id.github.io)
+* [Object Capabilities](https://github.com/dckc/awesome-ocap)
+* [Peer-to-Peer](https://github.com/kgryte/awesome-peer-to-peer) 
+* [Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 ### Roadmap
 
