@@ -136,7 +136,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
 * [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
-* [Gun](https://github.com/amark/gun) - CRDT implementation
+* [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
 * [LibP2P](https://libp2p.io/)
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
@@ -152,6 +152,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [ClickHouse](https://clickhouse.tech/) - Distributed SQL OLAP DB
 * [Cockroach DB](https://github.com/cockroachdb/cockroach) - Distributed SQL DB, which is written in Go and can be compiled to WASM to run on devices
 * [FlockDB](https://github.com/twitter-archive/flockdb) - Distributed graph database in Scala
+* [Gun](https://github.com/amark/gun) - P2P browser-based graph database. See also above
 * [JanusGraph](https://github.com/JanusGraph/janusgraph) - Distributed graph database in Java
 * [Nebula](https://github.com/vesoft-inc/nebula) - Distributed graph database in C++
 * [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Distributed least authority object capabilities database in Python
