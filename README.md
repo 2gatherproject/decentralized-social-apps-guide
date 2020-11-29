@@ -50,6 +50,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
+* [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities 
 * [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
 * [Textile platform](https://textile.io/) - Using IPFS
 
@@ -170,6 +171,10 @@ In a world in which the decentralized devices that interact with each other may 
 
 It will also require secure _private smart contracts_ and _secure multi-party computation_ that can operate on encrypted data safely and in a "trustless" way. There are various new approaches to this including _trusted execution environments_ and _homomorphic encryption_.
 
+#### Actor Model and Object Capability Access Control
+
+The Actor Model is the most natural framework for building decentralized social protocols, platforms and apps because it aligns with our democratic ideals and ways of initiating and organizing human endeavors. Object Capabilities, as opposed to Access Control Lists (ACLs), builds on the actor model to support the Principle of Least Authority, putting an actor in charge of their data, rather than a recipient or a service. This allows permissions to be revoked by the actor when desired and prevents the Confused Deputy problem and other abuses by service providers and proxies. See the concepts section below for references. See also [ACLs Don't](http://waterken.sourceforge.net/aclsdont/) for an overview of the benefits of Object Capabilities vs ACLs.
+
 #### Development Process Considerations
 
 Even when a project is fully decentralized in its operation and technically open source, its may be tightly controlled by a single corporation. No software that is controlled centrally like this can be considered truly decentralized. Some process considerations to evaluate when considering a project include:
@@ -191,6 +196,7 @@ Some relevant concepts
 * [Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 * [Byzantine Faults](https://en.wikipedia.org/wiki/Byzantine_fault) A type of challenge facing decentralized systems
 * [Confidential Computing](https://confidentialcomputing.io/) - A consortium to accelerate the adoption of Trusted Execution Environment (TEE) technologies and standards
+* [Confused Deputy Problem](https://en.wikipedia.org/wiki/Confused_deputy_problem)
 * [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) Conflict free replicated data types
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
 * [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
@@ -200,8 +206,9 @@ Some relevant concepts
 * [End-to-End Encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)
 * [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
 * [MegOlm](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md) - A double-ratchet encryption algorithm used by Matrix for private group messaging
-* [Object Capability](https://en.wikipedia.org/wiki/Object-capability_model) - An access control approach consisten with the actor model of decentralized/concurrent computing
+* [Object Capability](https://en.wikipedia.org/wiki/Object-capability_model) - An access control approach consistent with the actor model of decentralized/concurrent computing. See also some [introductory slides](http://www.cis.syr.edu/~wedu/Teaching/CompSec/LectureNotes_New/Capability.pdf)
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
+* [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) - Also know as the principle of least authority
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
 * [Secret contracts](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) - A form of secure multi-party computation. Privacy protecting smart contracts. Also sometimes called "private contracts" or "private smart contracts"
 * [Smart contracts](https://en.wikipedia.org/wiki/Smart_contract)
