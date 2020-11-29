@@ -213,6 +213,7 @@ Some relevant concepts
 
 ### Related Awesome Lists
 * [Decentralized ID](https://github.com/Decentralized-ID/decentralized-id.github.io)
+* [Fediverse](https://github.com/emilebosch/awesome-fediverse)
 * [Object Capabilities](https://github.com/dckc/awesome-ocap)
 * [Peer-to-Peer](https://github.com/kgryte/awesome-peer-to-peer) 
 * [Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
