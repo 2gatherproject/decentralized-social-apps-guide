@@ -133,12 +133,14 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Automerge](https://github.com/automerge/automerge) - CRDT implementation
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
+* [CJDNS](https://github.com/cjdelisle/cjdns) - Encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing
 * [Dat](https://www.datprotocol.com/) - A mutable, identity addressed file/data sharing protocol
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
 * [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
+* [Hyperswarm](https://github.com/hyperswarm/hyperswarm) - A distributed networking stack for connecting peers.
 * [LibP2P](https://libp2p.io/)
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
@@ -147,6 +149,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Steem blockchain](https://steem.com/)
 * [WebRTC](https://webrtc.org/)
+* [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - Scalable routing as an encrypted IPv6 overlay network
 * [Zot](https://zotlabs.org/help/en/about/about) - Used in Aether and Hubzilla platforms
 
 #### Decentralized Databases
