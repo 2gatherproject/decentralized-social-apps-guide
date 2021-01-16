@@ -10,7 +10,8 @@
     * [Decentralized Databases](#decentralized-databases)
 * [Common Issues](#common-issues)
 * [Concepts](#concepts)  
-* [Related Awesome Lists](#related-awesome-lists)  
+* [Related Awesome Lists](#related-awesome-lists)
+* [Initiatives and Institutions](#initiatives-and-institutions)  
 * [Roadmap](#roadmap)
 * [Contributions](#contributions)
 * [License](#license)
@@ -43,6 +44,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
 * [Textile Photos](https://github.com/textileio/photos) - A photo sharing app using Textile (See below)
+* [Vocdoni](https://blog.vocdoni.io/vocdoni-technical-overview-v1/) - A voting and collaboration platform, affiliated with Aragon, on an Ethereum compatible sidechain
 
 
 ##### Platforms
@@ -71,7 +73,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Gitcoin](https://gitcoin.co/) - Bounties for software projects
 
 ###### DAO platforms
-* [Aragon platform](https://aragon.one/)
+* [Aragon platform](https://aragon.one/) - Now affiliated with Vocdoni
 * [DAOStack platform](https://daostack.io/)
 * [Colony platform](https://colony.io/)
 * [Moloch platform](https://github.com/MolochVentures/moloch)
@@ -98,6 +100,7 @@ This is a curated list. More developed apps and platforms with more features and
 
 * [Secret voting (Enigma)](https://blog.enigma.co/secret-voting-smart-contracts-with-enigma-a-walkthrough-5bb976164753) using Enigma (see below)
 * [Secret voting (Oasis)](https://docs.oasiscloud.io/en/latest/secret-ballot/) - using Oasis (see below)
+* [Secret voting (Vocdoni)](https://blog.vocdoni.io/vocdoni-technical-overview-v1/) - using zk-SNARKs
 * [Trellis](https://github.com/automerge/trellis) - Trello clone based on MPL (Automerge & WebRTC)
 
 ##### Meta
@@ -137,6 +140,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Dat](https://www.datprotocol.com/) - A mutable, identity addressed file/data sharing protocol
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
+* [Fluid Framework](https://fluidframework.com/docs/) - for managing state for collaborative decentralized apps. Requires servers for operation.
 * [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
@@ -228,8 +232,10 @@ Some relevant concepts
 * [Peer-to-Peer](https://github.com/kgryte/awesome-peer-to-peer) 
 * [Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
-### Roadmap
+### Initiatives and Institutions
+* [Next Generation Internet](https://www.ngi.eu/) - a major European initiative and funder for a Human Internet that respects the fundamental values of privacy, participation and diversity.
 
+### Roadmap
 This is a work in progress! Please help extend it and keep it up to date.
 
 It is hoped that in the future a comparison of the various apps and platforms will be provided. Some of the criteria that will be worth highlighting are:
