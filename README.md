@@ -34,12 +34,14 @@ This is a curated list. More developed apps and platforms with more features and
 
 * [Aether](https://getaether.net/) - Open source, self-governing communities with auditable moderation and mod elections
 * [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
+* [Circles](https://github.com/KombuchaPrivacy/circles-ios) - A social media app (iOS only) based off of the Matrix platform (see more below), currently in beta.
 * [Element](https://element.io/), formerly known as Riot IM, is the reference messaging client for the Matrix platform. Matrix is currently federated but a fully decentralized version is under active development (see below). Strongly private group messaging using MegOlm double-ratchet. Backed by [Automattic](https://matrix.org/blog/2020/05/21/welcoming-automattic-to-matrix), the creators of Wordpress, among others. Used by the [French](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app) and [German](https://www.heise.de/newsticker/meldung/Bundeswehr-setzt-kuenftig-auf-Matrix-als-Messenger-4719474.html) governments and other clients. Apache 2.0 licensed
 * [DTube](https://d.tube/) - Youtube clone using Steemit blockchain and IPFS. GPL licensed
 * [Iris](https://irislib.github.io/) - Social sharing using Gun and IPFS
 * [Jami](https://jami.net/) - WhatsApp clone
 * [Junto](https://junto.foundation/) - Social network on Holochain
 * [Lemmy](https://github.com/LemmyNet/lemmy) - An alternative to Reddit. Curently only federated, but because it is in Rust it could be ported to WASM and made fully decentralized, like Matrix (see below)
+* [MinesTrix](https://gitlab.com/minestrix/minestrix-flutter) - A social media app (Flutter: Android, iOS and web) based off of the Matrix platform (see more below), still in alpha.
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
@@ -133,11 +135,14 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 These are the underlying decentralized protocols powering the dapps and platforms above
 
 * [ActivityPub](https://activitypub.rocks/)
+* [ADX](https://github.com/bluesky-social/adx/blob/main/architecture.md) - Bluesky (a project of Twitter) is building a protocol for large-scale distributed social applications. ADX means "Authenticated Data eXperiment."
 * [Automerge](https://github.com/automerge/automerge) - CRDT implementation
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
+* [CACAO](https://github.com/ceramicnetwork/cacao) - Chain-agnostic Object Capabilities (OCAP), created using EIP-4361 (or similar for other blockchains), as an [IPLD](https://github.com/ipld/ipld) object. Can work on content addressable storage like IPFS.
 * [CJDNS](https://github.com/cjdelisle/cjdns) - Encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing
 * [Dat](https://www.datprotocol.com/) - A mutable, identity addressed file/data sharing protocol
+* [DIDComm](https://github.com/decentralized-identity/didcomm-messaging) - The purpose of DIDComm Messaging is to provide a secure, private communication methodology built atop the decentralized design of DIDs (see below). Intended to work over any transport.
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
 * [Fluid Framework](https://fluidframework.com/docs/) - for managing state for collaborative decentralized apps. Requires servers for operation.
@@ -145,7 +150,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
 * [Hyperswarm](https://github.com/hyperswarm/hyperswarm) - A distributed networking stack for connecting peers.
-* [LibP2P](https://libp2p.io/)
+* [LibP2P](https://libp2p.io/) - A decentralized networking stack and library modularized out of The IPFS Project, and bundled separately for other tools to use
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
 * [Oasis](https://www.oasislabs.com/) - Secure "secret contract" protocol extended from Ethereum
@@ -156,13 +161,16 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - Scalable routing as an encrypted IPv6 overlay network
 * [Zot](https://zotlabs.org/help/en/about/about) - Used in Aether and Hubzilla platforms
 
-#### Decentralized Databases
+#### Decentralized and Distributed Databases
 * [ClickHouse](https://clickhouse.tech/) - Distributed SQL OLAP DB
 * [Cockroach DB](https://github.com/cockroachdb/cockroach) - Distributed SQL DB, which is written in Go and can be compiled to WASM to run on devices
+* [FoundationDB](https://github.com/apple/foundationdb) - The open source, distributed, transactional key-value store from Apple.
 * [FlockDB](https://github.com/twitter-archive/flockdb) - Distributed graph database in Scala
 * [Gun](https://github.com/amark/gun) - P2P browser-based graph database. See also above
 * [JanusGraph](https://github.com/JanusGraph/janusgraph) - Distributed graph database in Java
+* [mvSQLite](https://github.com/losfair/mvsqlite) - Distributed SQLite that runs on top of FoundationDB.
 * [Nebula](https://github.com/vesoft-inc/nebula) - Distributed graph database in C++
+* [SurrealDB](https://github.com/surrealdb/surrealdb) - A scalable, distributed, embeddable, collaborative, document-graph database, for the realtime web.
 * [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Distributed least authority object capabilities database in Python
 * [Titan](https://github.com/thinkaurelius/titan) - Distributed graph database in Java
 
