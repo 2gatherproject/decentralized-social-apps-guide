@@ -35,13 +35,16 @@ This is a curated list. More developed apps and platforms with more features and
 * [Aether](https://getaether.net/) - Open source, self-governing communities with auditable moderation and mod elections
 * [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
 * [Circles](https://github.com/KombuchaPrivacy/circles-ios) - A social media app (iOS only) based off of the Matrix platform (see more below), currently in beta.
+* [Effectio](https://github.com/effektio/effektio) Community Communication and casual social organising platform, built on top of Matrix protocol.
 * [Element](https://element.io/), formerly known as Riot IM, is the reference messaging client for the Matrix platform. Matrix is currently federated but a fully decentralized version is under active development (see below). Strongly private group messaging using MegOlm double-ratchet. Backed by [Automattic](https://matrix.org/blog/2020/05/21/welcoming-automattic-to-matrix), the creators of Wordpress, among others. Used by the [French](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app) and [German](https://www.heise.de/newsticker/meldung/Bundeswehr-setzt-kuenftig-auf-Matrix-als-Messenger-4719474.html) governments and other clients. Apache 2.0 licensed
 * [DTube](https://d.tube/) - Youtube clone using Steemit blockchain and IPFS. GPL licensed
 * [Iris](https://irislib.github.io/) - Social sharing using Gun and IPFS
 * [Jami](https://jami.net/) - WhatsApp clone
 * [Junto](https://junto.foundation/) - Social network on Holochain
 * [Lemmy](https://github.com/LemmyNet/lemmy) - An alternative to Reddit. Curently only federated, but because it is in Rust it could be ported to WASM and made fully decentralized, like Matrix (see below)
+* [Matrix Social](https://codeberg.org/imbev/matrix-social) A Matrix "Social Media" client
 * [MinesTrix](https://gitlab.com/minestrix/minestrix-flutter) - A social media app (Flutter: Android, iOS and web) based off of the Matrix platform (see more below), still in alpha.
+* [NOSTR Clients (multiple)](https://github.com/aljazceru/awesome-nostr#clients) NOSTR is an open protocol for censorship-resistant global networks, and this lists multiple clients that support it
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
@@ -150,13 +153,17 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
 * [Hyperswarm](https://github.com/hyperswarm/hyperswarm) - A distributed networking stack for connecting peers.
+* [Lens Protocol](https://www.lens.xyz/) - Lens Protocol is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users. Built on Polygon/Ethereum chains.
 * [LibP2P](https://libp2p.io/) - A decentralized networking stack and library modularized out of The IPFS Project, and bundled separately for other tools to use
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
+* [Mina Protocol](https://github.com/MinaProtocol/mina) - Mina is a new cryptocurrency with a constant size blockchain, improving scaling while maintaining decentralization and security (Javascript/Browser)
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
+* [NOSTR](https://github.com/nostr-protocol/nostr) NOSTR stands for "Notes and Other Stuff Transmitted by Relays" and is an open protocol for censorship-resistant global networks. [Awesome NOSTR]( https://github.com/aljazceru/awesome-nostr)
 * [Oasis](https://www.oasislabs.com/) - Secure "secret contract" protocol extended from Ethereum
 * [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Steem blockchain](https://steem.com/)
+* [Waku](https://our.status.im/waku-decentralized-communication-for-web3/) - Decentralized, off-chain communications channel for Web3
 * [WebRTC](https://webrtc.org/)
 * [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - Scalable routing as an encrypted IPv6 overlay network
 * [Zot](https://zotlabs.org/help/en/about/about) - Used in Aether and Hubzilla platforms
@@ -216,6 +223,7 @@ Some relevant concepts
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
 * [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
 * [DIDs](https://medium.com/moxystudio/the-need-for-decentralized-identity-4d369408e10e) Decentralized Identifiers
+* [DHTs](https://en.wikipedia.org/wiki/Distributed_hash_table) - Distributed Hash Tables
 * [Double-ratchet encryption](https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm) - Private messaging with "future secrecy"
 * [Decentralized AI](https://towardsdatascience.com/everything-you-need-to-know-about-decentralized-ai-3abdb052324b)
 * [End-to-End Encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)
@@ -224,6 +232,7 @@ Some relevant concepts
 * [Object Capability](https://en.wikipedia.org/wiki/Object-capability_model) - An access control approach consistent with the actor model of decentralized/concurrent computing. See also some [introductory slides](http://www.cis.syr.edu/~wedu/Teaching/CompSec/LectureNotes_New/Capability.pdf)
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
 * [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) - Also know as the principle of least authority
+* [Privacy-preserving DHTs, status](https://github.com/gpestana/notes/issues/8). See also [this paper](https://github.com/gpestana/p2psec/tree/master/papers/privacy_preserving_dht) on current reality and future
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
 * [Secret contracts](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) - A form of secure multi-party computation. Privacy protecting smart contracts. Also sometimes called "private contracts" or "private smart contracts"
 * [Smart contracts](https://en.wikipedia.org/wiki/Smart_contract)
