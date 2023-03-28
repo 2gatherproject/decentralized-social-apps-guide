@@ -181,6 +181,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [SurrealDB](https://github.com/surrealdb/surrealdb) - A scalable, distributed, embeddable, collaborative, document-graph database, for the realtime web.
 * [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Distributed least authority object capabilities database in Python
 * [Titan](https://github.com/thinkaurelius/titan) - Distributed graph database in Java
+* [Polybase](https://github.com/polybase) - An open-source decentralized database for web3.
 
 ### Common Issues
 
