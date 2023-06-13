@@ -56,6 +56,7 @@ This is a curated list. More developed apps and platforms with more features and
 ##### Platforms
 
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
+* [Bluesky](https://blueskyweb.xyz/blog/5-5-2023-federation-architecture) - A project originally spun out of Twitter, which is building the AT Protocol (see below), a new foundation for public conversation and social networking which gives creators independence from platforms, developers the freedom to build, and users a choice in their experience.
 * [DSNP](https://www.dsnp.org/) Decentralized Social Network Protocol - a public social graph completely disconnected from financial incentives from [Amplica Labs](https://amplica.io/) and [Project Liberty](https://projectliberty.io/), built on [Frequency](https://www.frequency.xyz/) and [Polkadot](https://polkadot.network/)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
@@ -140,7 +141,7 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 These are the underlying decentralized protocols powering the dapps and platforms above
 
 * [ActivityPub](https://activitypub.rocks/)
-* [ADX](https://github.com/bluesky-social/adx/blob/main/architecture.md) - Bluesky (a project of Twitter) is building a protocol for large-scale distributed social applications. ADX means "Authenticated Data eXperiment."
+* [AT Protocol](https://atproto.com/docs) - The Authenticated Transfer Protocol is the new decentralized protocol developed by Bluesky (a project spun out of Twitter), and is a federated protocol for large-scale distributed social applications.
 * [Automerge](https://github.com/automerge/automerge) - CRDT implementation
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
@@ -150,6 +151,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [DIDComm](https://github.com/decentralized-identity/didcomm-messaging) - The purpose of DIDComm Messaging is to provide a secure, private communication methodology built atop the decentralized design of DIDs (see below). Intended to work over any transport.
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
+* [Farcaster](https://github.com/farcasterxyz/protocol) - Farcaster is a community-created protocol for building decentralized social applications. Developers can use Farcaster to build new, decentralized social networks, letting the protocol deal with the hard problems of managing user identities and data. Users can create a new account that they control and sign up to use any of these applications. Users are always in control of their data and identity and can switch freely between applications.
 * [Fluid Framework](https://fluidframework.com/docs/) - for managing state for collaborative decentralized apps. Requires servers for operation.
 * [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
