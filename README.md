@@ -32,7 +32,10 @@ This is a curated list. More developed apps and platforms with more features and
 
 #### Social Networking
 
+##### Applications
+
 * [Aether](https://getaether.net/) - Open source, self-governing communities with auditable moderation and mod elections
+* [Bluesky](https://github.com/bluesky-social/social-app) - An app and project originally spun out of Twitter, which is building the AT Protocol (see below), a new foundation for public conversation and social networking which gives creators independence from platforms, developers the freedom to build, and users a choice in their experience.
 * [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
 * [Circles](https://github.com/KombuchaPrivacy/circles-ios) - A social media app (iOS only) based off of the Matrix platform (see more below), currently in beta.
 * [Effectio](https://github.com/effektio/effektio) Community Communication and casual social organising platform, built on top of Matrix protocol.
@@ -56,7 +59,6 @@ This is a curated list. More developed apps and platforms with more features and
 ##### Platforms
 
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
-* [Bluesky](https://blueskyweb.xyz/blog/5-5-2023-federation-architecture) - A project originally spun out of Twitter, which is building the AT Protocol (see below), a new foundation for public conversation and social networking which gives creators independence from platforms, developers the freedom to build, and users a choice in their experience.
 * [DSNP](https://www.dsnp.org/) Decentralized Social Network Protocol - a public social graph completely disconnected from financial incentives from [Amplica Labs](https://amplica.io/) and [Project Liberty](https://projectliberty.io/), built on [Frequency](https://www.frequency.xyz/) and [Polkadot](https://polkadot.network/)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
@@ -141,7 +143,7 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 These are the underlying decentralized protocols powering the dapps and platforms above
 
 * [ActivityPub](https://activitypub.rocks/)
-* [AT Protocol](https://atproto.com/docs) - The Authenticated Transfer Protocol is the new decentralized protocol developed by Bluesky (a project spun out of Twitter), and is a federated protocol for large-scale distributed social applications.
+* [AT Protocol](https://github.com/bluesky-social/atproto) - The Authenticated Transfer Protocol is the new decentralized protocol developed by Bluesky (a project spun out of Twitter), and is a federated protocol for large-scale distributed social applications.
 * [Automerge](https://github.com/automerge/automerge) - CRDT implementation
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
