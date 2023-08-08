@@ -5,13 +5,13 @@
 * [Applications and Platforms](#applications-and-platforms)
     * [Social Networking](#social-networking)
     * [Collaboration](#collaboration)
-    * [Identity](#identity)
+    * [Identity and Authorization](#identity-and-authorization)
     * [Decentralized Protocols](#decentralized-protocols)
     * [Decentralized Databases](#decentralized-databases)
 * [Common Issues](#common-issues)
-* [Concepts](#concepts)  
+* [Concepts](#concepts)
 * [Related Awesome Lists](#related-awesome-lists)
-* [Initiatives and Institutions](#initiatives-and-institutions)  
+* [Initiatives and Institutions](#initiatives-and-institutions)
 * [Roadmap](#roadmap)
 * [Contributions](#contributions)
 * [License](#license)
@@ -41,6 +41,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Effectio](https://github.com/effektio/effektio) Community Communication and casual social organising platform, built on top of Matrix protocol.
 * [Element](https://element.io/), formerly known as Riot IM, is the reference messaging client for the Matrix platform. Matrix is currently federated but a fully decentralized version is under active development (see below). Strongly private group messaging using MegOlm double-ratchet. Backed by [Automattic](https://matrix.org/blog/2020/05/21/welcoming-automattic-to-matrix), the creators of Wordpress, among others. Used by the [French](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app) and [German](https://www.heise.de/newsticker/meldung/Bundeswehr-setzt-kuenftig-auf-Matrix-als-Messenger-4719474.html) governments and other clients. Apache 2.0 licensed
 * [DTube](https://d.tube/) - Youtube clone using Steemit blockchain and IPFS. GPL licensed
+* [Group Income](https://github.com/okTurtles/group-income) - Voluntary Basic Income system that's decentralized and end-to-end encrypted. Uses Shelter Protocol (see below).
 * [Iris](https://irislib.github.io/) - Social sharing using Gun and IPFS
 * [Jami](https://jami.net/) - WhatsApp clone
 * [Junto](https://junto.foundation/) - Social network on Holochain
@@ -62,7 +63,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [DSNP](https://www.dsnp.org/) Decentralized Social Network Protocol - a public social graph completely disconnected from financial incentives from [Amplica Labs](https://amplica.io/) and [Project Liberty](https://projectliberty.io/), built on [Frequency](https://www.frequency.xyz/) and [Polkadot](https://polkadot.network/)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
-* [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities 
+* [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities
 * [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
 * [Textile platform](https://textile.io/) - Using IPFS
 
@@ -116,10 +117,11 @@ This is a curated list. More developed apps and platforms with more features and
 ##### Meta
 * An overview of existing Ethereum-based DAO (decentralized autonomous organization) platforms (6/16/19): [Aragon, DAOStack, Colony, Moloch](https://kronosapiens.github.io/blog/2019/06/16/aragon-daostack-colony-moloch.html)
 
-#### Identity
+#### Identity and Authorization
 
 Identity services are a key requirement of most social/collaborative apps. Decentralized and self-sovereign identity platforms and "wallets" are listed here.
 
+* [Biscuit Authorization](https://github.com/biscuit-auth/biscuit) - Biscuit is a revocable authorization token with decentralized verification, offline attenuation and strong security policy enforcement based on a logic language. How to [integrate with OAuth and OIDC](https://www.biscuitsec.org/blog/oauth-oidc/).
 * [DID-SIOP](https://identity.foundation/did-siop/) - OpenID protocol for self-issued (self-sovereign) identities, e.g. using a public/private key or cryptography wallet
 * [Ceramic](https://www.ceramic.network/) DIDs and linked documents on IPFS. Affiliated with 3Box and Ethereum ecosystem. (Not affiliated with Decentralized Identity Foundation?)
 * [IDM](https://github.com/ipfs-shipyard/pm-idm) General purpose identity manager for DIDs
@@ -129,6 +131,9 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 * [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy)
 * [Keycard](https://keycard.tech/) - A new type of smartcard and open source API for simple integration with crypto wallets, DApps, and hardware
 * [MetaMask](https://metamask.io/) Ethereum wallet/identity manager
+* [OpenPubkey](https://www.bastionzero.com/blog/bastionzeros-openpubkey-why-i-think-it-is-the-most-important-security-research-ive-done) - OpenPubkey adds user generated cryptographic signatures to OpenID Connect. See also [journal article](https://eprint.iacr.org/2023/296.pdf) on the protocol. They say open source code is available, but where?
+* [OpenABE](https://github.com/zeutro/openabe) - Open source cryptographic library with attribute-based encryption implementations in C/C++
+* [Rabe](https://github.com/Fraunhofer-AISEC/rabe) - Rabe is an Attribute Based Encryption library, written in Rust
 * [Reclaim:ID](https://reclaimid.gitlab.io/) - Decentralized identity on GNU:net with OpenID interface
 * [Status.im](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser
 * [Trezor](https://trezor.io/) Open-source hardware wallet/identity manager
@@ -168,6 +173,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Oasis](https://www.oasislabs.com/) - Secure "secret contract" protocol extended from Ethereum
 * [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
+* [Shelter Protocol](https://shelterprotocol.net/en/introduction/) -The Shelter Protocol is a protocol for creating end-to-end encrypted, federated, user-friendly web applications.
 * [Steem blockchain](https://steem.com/)
 * [Waku](https://our.status.im/waku-decentralized-communication-for-web3/) - Decentralized, off-chain communications channel for Web3
 * [WebRTC](https://webrtc.org/)
@@ -216,14 +222,16 @@ Even when a project is fully decentralized in its operation and technically open
 * Is the project well documented and regularly updated?
 * Is the project designed in an extendable way?
 
-### Concepts 
+### Concepts
 
 Some relevant concepts
 
 * [Actor Model](https://en.wikipedia.org/wiki/Actor_model) - Actor model of decentralized/concurrent computing
+* [Attribute Base Encryption](https://crypto.stackexchange.com/questions/17893/what-is-attribute-based-encryption) - Attribute-based Encryption (ABE) allows for implementing
+fine-grained decentralized access control based on properties or attributes.
 * [Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 * [Byzantine Faults](https://en.wikipedia.org/wiki/Byzantine_fault) A type of challenge facing decentralized systems
-* [Confidential Computing](https://confidentialcomputing.io/) - A consortium to accelerate the adoption of Trusted Execution Environment (TEE) technologies and standards
+* [Confidential Computing](https://confidentialcomputing.io/) - A consortium to accelerate the adoption of Trusted Execution Environment (TEE) technologies and standards. See also this list of [current projects](https://confidentialcomputing.io/projects/current-projects/).
 * [Confused Deputy Problem](https://en.wikipedia.org/wiki/Confused_deputy_problem)
 * [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) Conflict free replicated data types
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
@@ -252,7 +260,7 @@ Some relevant concepts
 * [Decentralized ID](https://github.com/Decentralized-ID/decentralized-id.github.io)
 * [Fediverse](https://github.com/emilebosch/awesome-fediverse)
 * [Object Capabilities](https://github.com/dckc/awesome-ocap)
-* [Peer-to-Peer](https://github.com/kgryte/awesome-peer-to-peer) 
+* [Peer-to-Peer](https://github.com/kgryte/awesome-peer-to-peer)
 * [Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 ### Initiatives and Institutions
