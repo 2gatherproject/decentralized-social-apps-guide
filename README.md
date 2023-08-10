@@ -164,6 +164,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
 * [Hyperswarm](https://github.com/hyperswarm/hyperswarm) - A distributed networking stack for connecting peers.
+* [Kamilata](https://github.com/Mubelotix/kamilata) - A flexible peer-to-peer search engine protocol designed for use by applications, which powers the [Admarus search engine](https://github.com/Mubelotix/admarus).
 * [Lens Protocol](https://www.lens.xyz/) - Lens Protocol is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users. Built on Polygon/Ethereum chains.
 * [LibP2P](https://libp2p.io/) - A decentralized networking stack and library modularized out of The IPFS Project, and bundled separately for other tools to use
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
