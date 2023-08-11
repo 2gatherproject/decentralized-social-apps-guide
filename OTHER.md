@@ -10,7 +10,7 @@
 
 ### Purpose
 
-These apps and platforms are NOT _decentralized_ but are all open source. Some are federated. This is a curated list of some interesting experiments to keep an eye on. See the more complete decentralized and awesome guide in this repo! 
+These apps and platforms are NOT _decentralized_ but are all open source. Some are federated. This is a curated list of some interesting experiments to keep an eye on. See the more complete decentralized and awesome guide in this repo!
 
 ### Applications and Platforms
 
@@ -30,8 +30,8 @@ These apps and platforms are NOT _decentralized_ but are all open source. Some a
 
 * [Discourse](https://www.discourse.org/) - Discussion forum. GPL licensed
 * [Mattermost](https://mattermost.com/) - Slack alternative
-* [NodeBB](https://nodebb.org/) - Discussion forum using Nodejs 
-* [Riot.im](https://about.riot.im/) - Slack alternative based on [Matrix](https://matrix.org/) protocol
+* [NodeBB](https://nodebb.org/) - Discussion forum using Nodejs
+* [Polis](https://github.com/compdemocracy/polis) - Open Source AI for large scale open ended feedback
 * [Signal](https://signal.org/) - Privacy oriented WhatsApp alternative. GPL licensed
 
 ### Contributions
