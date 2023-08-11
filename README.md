@@ -8,6 +8,8 @@
     * [Identity and Authorization](#identity-and-authorization)
     * [Decentralized Protocols](#decentralized-protocols)
     * [Decentralized Databases](#decentralized-databases)
+    * [Decentralized Search and Indexing](#decentralized-search-and-indexing)
+    * [Decentralized Publishing](#decentralized-publishing)
 * [Common Issues](#common-issues)
 * [Concepts](#concepts)
 * [Related Awesome Lists](#related-awesome-lists)
@@ -61,6 +63,7 @@ This is a curated list. More developed apps and platforms with more features and
 
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
 * [DSNP](https://www.dsnp.org/) Decentralized Social Network Protocol - a public social graph completely disconnected from financial incentives from [Amplica Labs](https://amplica.io/) and [Project Liberty](https://projectliberty.io/), built on [Frequency](https://www.frequency.xyz/) and [Polkadot](https://polkadot.network/)
+* [Holepunch](https://docs.holepunch.to/) - Holepunch equips developers with a powerful suite of independent components to effortlessly construct peer-to-peer applications. Includes information on Hypercore, Hyperbee, Hyperdrive, Autobase, HyperDHT, and Hyperswarm open source projects.
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
 * [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities
@@ -192,6 +195,12 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [SurrealDB](https://github.com/surrealdb/surrealdb) - A scalable, distributed, embeddable, collaborative, document-graph database, for the realtime web.
 * [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Distributed least authority object capabilities database in Python
 * [Titan](https://github.com/thinkaurelius/titan) - Distributed graph database in Java
+
+#### Decentralized Search and Indexing
+* [Admarus](https://github.com/Mubelotix/admarus) - Peer-to-Peer Search Engine for IPFS
+
+#### Decentralized Publishing
+* [Distributed Press](https://github.com/hyphacoop/api.distributed.press) - An open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like Hypercore and IPFS.
 
 ### Common Issues
 
