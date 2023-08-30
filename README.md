@@ -50,6 +50,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [MinesTrix](https://gitlab.com/minestrix/minestrix-flutter) - A social media app (Flutter: Android, iOS and web) based off of the Matrix platform (see more below), still in alpha.
 * [NOSTR Clients (multiple)](https://github.com/aljazceru/awesome-nostr#clients) NOSTR is an open protocol for censorship-resistant global networks, and this lists multiple clients that support it
 * [Open Super Dapp](https://github.com/2gatherproject/open-super-dapp-android) - Your gateway to the new digital commons. A "super app" with integrated mobile messenger, Ethereum wallet, and Web 3.0 browser built on open, decentralized, and encrypted protocols. Pre alpha. Seeking developers/supporters.
+* [Open Wallet Foundation](https://github.com/openwallet-foundation) - The mission of the OWF is to develop an open source engine to enable secure and interoperable multi-purpose wallets anyone can use to build solutions.
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
