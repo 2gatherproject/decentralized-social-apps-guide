@@ -97,6 +97,7 @@ This is a curated list. More developed apps and platforms with more features and
 ###### Ethereum, other
 
 * [BroncoVotes](https://github.com/pmarella2/BroncoVotes) - Ethereum based secure voting platform
+* [Nouns Anonymous Voting](https://github.com/aragonzkresearch/nouns-anonymous-voting) - A proof of concept implementation of anonymous voting on Ethereum, leveraging [Timelock](https://www.timelock.zone/) ([on Github](https://github.com/aragonzkresearch/tlcs-rust)), a public platform that allows companies and individuals to encrypt data for future decryption, which in turn relies on [dRand](https://drand.love/) ([on Github](https://github.com/drand/drand)), a trusted distributed beacon of public randomness, from the [League of Entropy](https://blog.cloudflare.com/league-of-entropy/).
 * [PeepsDemocracy](https://www.peepsdemocracy.com/) - ActBlue alternative. Nothing there yet? Open source?
 
 
