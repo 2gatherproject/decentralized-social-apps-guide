@@ -36,6 +36,7 @@ This is a curated list. More developed apps and platforms with more features and
 
 ##### Applications
 
+* [Acorn](https://github.com/lightningrodlabs/acorn) - Acorn is an open-source, peer-to-peer project management application, built with Holochain.
 * [Aether](https://getaether.net/) - Open source, self-governing communities with auditable moderation and mod elections
 * [Bluesky](https://github.com/bluesky-social/social-app) - An app and project originally spun out of Twitter, which is building the AT Protocol (see below), a new foundation for public conversation and social networking which gives creators independence from platforms, developers the freedom to build, and users a choice in their experience.
 * [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
@@ -55,6 +56,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
+* [Quiet](https://github.com/TryQuiet/quiet) - A private, p2p alternative to Slack and Discord built on Tor & IPFS
 * [Textile Photos](https://github.com/textileio/photos) - A photo sharing app using Textile (See below)
 * [Vocdoni](https://blog.vocdoni.io/vocdoni-technical-overview-v1/) - A voting and collaboration platform, affiliated with Aragon, on an Ethereum compatible sidechain
 
@@ -189,6 +191,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Cockroach DB](https://github.com/cockroachdb/cockroach) - Distributed SQL DB, which is written in Go and can be compiled to WASM to run on devices
 * [FoundationDB](https://github.com/apple/foundationdb) - The open source, distributed, transactional key-value store from Apple.
 * [FlockDB](https://github.com/twitter-archive/flockdb) - Distributed graph database in Scala
+* [Fluree](https://github.com/fluree/db) - Fluree is an immutable, temporal, ledger-backed semantic graph database that has a cloud-native architecture. It supports a "Data Defending Itself" authorization strategy. (See more below under concepts.) There is a build that [runs in the browser](https://github.com/fluree/fluree-react).
 * [Gun](https://github.com/amark/gun) - P2P browser-based graph database. See also above
 * [JanusGraph](https://github.com/JanusGraph/janusgraph) - Distributed graph database in Java
 * [mvSQLite](https://github.com/losfair/mvsqlite) - Distributed SQLite that runs on top of FoundationDB.
@@ -246,6 +249,7 @@ fine-grained decentralized access control based on properties or attributes.
 * [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) Conflict free replicated data types
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
 * [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
+* [Data-centric Security](https://en.wikipedia.org/wiki/Data-centric_security) - Also called "Data Defending Itself"
 * [DIDs](https://medium.com/moxystudio/the-need-for-decentralized-identity-4d369408e10e) Decentralized Identifiers
 * [DHTs](https://en.wikipedia.org/wiki/Distributed_hash_table) - Distributed Hash Tables
 * [Double-ratchet encryption](https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm) - Private messaging with "future secrecy"
@@ -256,6 +260,7 @@ fine-grained decentralized access control based on properties or attributes.
 * [Object Capability](https://en.wikipedia.org/wiki/Object-capability_model) - An access control approach consistent with the actor model of decentralized/concurrent computing. See also some [introductory slides](http://www.cis.syr.edu/~wedu/Teaching/CompSec/LectureNotes_New/Capability.pdf)
 * [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) Peer to peer
 * [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) - Also know as the principle of least authority
+* [Privacy-preserving solutions for blockchain](https://www.researchgate.net/publication/336937331_Privacy-Preserving_Solutions_for_Blockchain_Review_and_Challenges) - A good survey and overview of privacy-preserving solutions for blockchains
 * [Privacy-preserving DHTs, status](https://github.com/gpestana/notes/issues/8). See also [this paper](https://github.com/gpestana/p2psec/tree/master/papers/privacy_preserving_dht) on current reality and future
 * [Self-sovereign identity](https://en.wikipedia.org/wiki/Digital_identity#Self-sovereign_identity)
 * [Secret contracts](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) - A form of secure multi-party computation. Privacy protecting smart contracts. Also sometimes called "private contracts" or "private smart contracts"
