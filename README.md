@@ -57,6 +57,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Peerpeth](https://peepeth.com/welcome) - Twitter clone on the Ethereum blockchain
 * [PeerTube](https://joinpeertube.org/en/) - Youtube clone using ActivityPub
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
+* [Ricochet Refresh](https://github.com/blueprint-freespeech/ricochet-refresh/tree/main) - Ricochet Refresh is the new updated version of [Ricochet](https://github.com/ricochet-im/ricochet), supported by Blueprint for Free Speech. Ricochet is anonymous, metadata-resistant instant messaging
 * [Quiet](https://github.com/TryQuiet/quiet) - A private, p2p alternative to Slack and Discord built on Tor & IPFS
 * [Textile Photos](https://github.com/textileio/photos) - A photo sharing app using Textile (See below)
 * [Vocdoni](https://blog.vocdoni.io/vocdoni-technical-overview-v1/) - A voting and collaboration platform, affiliated with Aragon, on an Ethereum compatible sidechain
@@ -179,10 +180,10 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
 * [NOSTR](https://github.com/nostr-protocol/nostr) NOSTR stands for "Notes and Other Stuff Transmitted by Relays" and is an open protocol for censorship-resistant global networks. [Awesome NOSTR]( https://github.com/aljazceru/awesome-nostr)
 * [Oasis](https://www.oasislabs.com/) - Secure "secret contract" protocol extended from Ethereum
-* [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Shelter Protocol](https://shelterprotocol.net/en/introduction/) -The Shelter Protocol is a protocol for creating end-to-end encrypted, federated, user-friendly web applications.
 * [Steem blockchain](https://steem.com/)
+* [Tor Onion Services](https://community.torproject.org/onion-services/overview/) - Onion services are services that can only be accessed over Tor. Running an Onion Service gives your users all the security of HTTPS with the added privacy benefits of Tor Browser. Can be used for decentralized applications, see Ricochet Refresh and Quiet listed above.
 * [Waku](https://our.status.im/waku-decentralized-communication-for-web3/) - Decentralized, off-chain communications channel for Web3
 * [WebRTC](https://webrtc.org/)
 * [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - Scalable routing as an encrypted IPv6 overlay network
@@ -191,15 +192,21 @@ These are the underlying decentralized protocols powering the dapps and platform
 #### Decentralized and Distributed Databases
 * [ClickHouse](https://clickhouse.tech/) - Distributed SQL OLAP DB
 * [Cockroach DB](https://github.com/cockroachdb/cockroach) - Distributed SQL DB, which is written in Go and can be compiled to WASM to run on devices
+* [CozoDB](https://github.com/cozodb/cozo) - A transactional, relational-graph-vector database that uses Datalog for query. Run on mobile or in the browser.
+* [Electric SQL](https://github.com/electric-sql/electric) - Local-first sync layer for web and mobile apps. Build reactive, realtime, local-first apps directly on Postgres
 * [FoundationDB](https://github.com/apple/foundationdb) - The open source, distributed, transactional key-value store from Apple.
 * [FlockDB](https://github.com/twitter-archive/flockdb) - Distributed graph database in Scala
 * [Fluree](https://github.com/fluree/db) - Fluree is an immutable, temporal, ledger-backed semantic graph database that has a cloud-native architecture. It supports a "Data Defending Itself" authorization strategy. (See more below under concepts.) There is a build that [runs in the browser](https://github.com/fluree/fluree-react).
 * [Gun](https://github.com/amark/gun) - P2P browser-based graph database. See also above
 * [JanusGraph](https://github.com/JanusGraph/janusgraph) - Distributed graph database in Java
+* [KVRocks](https://github.com/apache/kvrocks) - Kvrocks is a distributed key value NoSQL database that uses RocksDB as storage engine and is compatible with Redis protocol. No listed webassembly/browser build, but could be possible?
 * [mvSQLite](https://github.com/losfair/mvsqlite) - Distributed SQLite that runs on top of FoundationDB.
+* [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Nebula](https://github.com/vesoft-inc/nebula) - Distributed graph database in C++
 * [SurrealDB](https://github.com/surrealdb/surrealdb) - A scalable, distributed, embeddable, collaborative, document-graph database, for the realtime web.
 * [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Distributed least authority object capabilities database in Python
+* [TiDB](https://github.com/pingcap/tidb) - TiDB is an open-source, cloud-native, distributed, MySQL-Compatible database for elastic scale and real-time analytics. Can be run in browser [using webassembly](https://www.pingcap.com/blog/tidb-in-the-browser-running-a-golang-database-on-webassembly/)
+* [TiKV](https://github.com/tikv/tikvcozo) - Distributed transactional key-value database, originally created to complement TiDB. Can be [run in browser](https://github.com/bsdelf/tikv-browser)
 * [Titan](https://github.com/thinkaurelius/titan) - Distributed graph database in Java
 
 #### Decentralized Search and Indexing
