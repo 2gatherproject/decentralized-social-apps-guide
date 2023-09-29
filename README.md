@@ -227,11 +227,12 @@ AI and machine learning libraries and resources for what is often called "Federa
 
 * [Awesome Federated Machine Learning](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning#enterprise-grade) - A good "awesome" compendium: Everything about federated learning, including research papers, books, codes, tutorials, videos and beyond. This section in particular links to the most notable "enterprise" quality libraries/frameworks. How can these be adapted for decentralized social media?
 
+* [EdgeML](https://github.com/Microsoft/EdgeML) - This repository provides code for machine learning algorithms for edge devices developed at Microsoft Research India
 * [FATE](https://github.com/FederatedAI/FATE) - An Industrial Grade Federated Learning Framework
 * [FedLearner](https://github.com/bytedance/fedlearner) - A multi-party collaborative machine learning framework
 * [FedML](https://github.com/FedML-AI/FedML) - The federated learning and analytics library enabling secure and collaborative machine learning on decentralized data anywhere at any scale. Supporting large-scale cross-silo federated learning, cross-device federated learning on smartphones/IoTs, and research simulation. MLOps and App Marketplace are also enabled.
 * [FederatedScope](https://github.com/alibaba/FederatedScope) - An easy-to-use federated learning platform
-* [Flower](https://github.com/adap/flower) - A Friendly Federated Learning Framework
+* [Flower](https://github.com/adap/flower) - A Friendly Federated Learning Framework, designed to work with edge/mobile devices
 * [IBM Federated Learning Lib](https://github.com/IBM/federated-learning-lib) - A library for federated learning (a distributed machine learning process) in an enterprise environment
 * [NVFlare](https://github.com/NVIDIA/NVFlare) - NVIDIA Federated Learning Application Runtime Environment
 * [OpenFL](https://github.com/securefederatedai/openfl) - An open framework for Federated Learning
@@ -289,10 +290,10 @@ fine-grained decentralized access control based on properties or attributes.
 * [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
 * [Data-centric Security](https://en.wikipedia.org/wiki/Data-centric_security) - Also called "Data Defending Itself"
 * [Decentralization for Web3 Builders](https://a16zcrypto.com/posts/article/web3-decentralization-models-framework-principles-how-to/) - Specific models and principles of decentralization gleaned from the past several years of working closely with crypto founders, to guide web3 builders tackling what decentralization means in practice, across several use cases
+* [Decentralized AI](https://towardsdatascience.com/everything-you-need-to-know-about-decentralized-ai-3abdb052324b)
 * [DIDs](https://medium.com/moxystudio/the-need-for-decentralized-identity-4d369408e10e) Decentralized Identifiers
 * [DHTs](https://en.wikipedia.org/wiki/Distributed_hash_table) - Distributed Hash Tables
 * [Double-ratchet encryption](https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm) - Private messaging with "future secrecy"
-* [Decentralized AI](https://towardsdatascience.com/everything-you-need-to-know-about-decentralized-ai-3abdb052324b)
 * [End-to-End Encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)
 * [Federated LEarning](https://en.wikipedia.org/wiki/Federated_learning)
 * [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
