@@ -7,8 +7,10 @@
     * [Collaboration](#collaboration)
     * [Identity and Authorization](#identity-and-authorization)
     * [Decentralized Protocols](#decentralized-protocols)
+    * [Decentralized Networking](#decentralized-networking)
     * [Decentralized Databases](#decentralized-databases)
     * [Decentralized Search and Indexing](#decentralized-search-and-indexing)
+    * [Decentralized AI](#decentralized-ai)
     * [Decentralized Publishing](#decentralized-publishing)
 * [Common Issues](#common-issues)
 * [Concepts](#concepts)
@@ -70,6 +72,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Holepunch](https://docs.holepunch.to/) - Holepunch equips developers with a powerful suite of independent components to effortlessly construct peer-to-peer applications. Includes information on Hypercore, Hyperbee, Hyperdrive, Autobase, HyperDHT, and Hyperswarm open source projects.
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
+* [OddSDK](https://github.com/oddsdk) - ODD SDK is Fission's true local-first, edge computing stack. ODD SDK empowers you to build fully distributed web applications with auth and storage without needing a complex backend
 * [Sia](https://github.com/SiaFoundation/siad) - A decentralized cloud storage platform.
 * [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities
 * [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
@@ -131,8 +134,10 @@ This is a curated list. More developed apps and platforms with more features and
 Identity services are a key requirement of most social/collaborative apps. Decentralized and self-sovereign identity platforms and "wallets" are listed here.
 
 * [Biscuit Authorization](https://github.com/biscuit-auth/biscuit) - Biscuit is a revocable authorization token with decentralized verification, offline attenuation and strong security policy enforcement based on a logic language. How to [integrate with OAuth and OIDC](https://www.biscuitsec.org/blog/oauth-oidc/).
-* [DID-SIOP](https://identity.foundation/did-siop/) - OpenID protocol for self-issued (self-sovereign) identities, e.g. using a public/private key or cryptography wallet
 * [Ceramic](https://www.ceramic.network/) DIDs and linked documents on IPFS. Affiliated with 3Box and Ethereum ecosystem. (Not affiliated with Decentralized Identity Foundation?)
+* [DBSC](https://github.com/WICG/dbsc) - Device Bound Session Credentials. Not strictly for decentralized uses, but may be helpful. Device Bound Session Credentials (DBSC) aims to reduce account hijacking caused by cookie theft. It does so by introducing a protocol and browser infrastructure to maintain and prove possession of a cryptographic key.
+* [DID-SIOP](https://identity.foundation/did-siop/) - OpenID protocol for self-issued (self-sovereign) identities, e.g. using a public/private key or cryptography wallet
+* [Ethereum Attestation Service](https://github.com/ethereum-attestation-service/eas-contracts) - A free and open protocol for on-chain attestations on EVM compatible blockchains
 * [IDM](https://github.com/ipfs-shipyard/pm-idm) General purpose identity manager for DIDs
 * [iden3](https://iden3.io/) Ethereum identity platform leveraging zk-SNARKs (See below)
 * [ION](https://github.com/decentralized-identity/ion) DID Method implementation using the Sidetree protocol on top of Bitcoin. From [Decentralized Identity Foundation](https://identity.foundation/).
@@ -162,19 +167,16 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
 * [CACAO](https://github.com/ceramicnetwork/cacao) - Chain-agnostic Object Capabilities (OCAP), created using EIP-4361 (or similar for other blockchains), as an [IPLD](https://github.com/ipld/ipld) object. Can work on content addressable storage like IPFS.
-* [CJDNS](https://github.com/cjdelisle/cjdns) - Encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing
 * [Dat](https://www.datprotocol.com/) - A mutable, identity addressed file/data sharing protocol
 * [DIDComm](https://github.com/decentralized-identity/didcomm-messaging) - The purpose of DIDComm Messaging is to provide a secure, private communication methodology built atop the decentralized design of DIDs (see below). Intended to work over any transport.
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
 * [Farcaster](https://github.com/farcasterxyz/protocol) - Farcaster is a community-created protocol for building decentralized social applications. Developers can use Farcaster to build new, decentralized social networks, letting the protocol deal with the hard problems of managing user identities and data. Users can create a new account that they control and sign up to use any of these applications. Users are always in control of their data and identity and can switch freely between applications.
 * [Fluid Framework](https://fluidframework.com/docs/) - for managing state for collaborative decentralized apps. Requires servers for operation.
-* [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
 * [Hyperswarm](https://github.com/hyperswarm/hyperswarm) - A distributed networking stack for connecting peers.
 * [Lens Protocol](https://www.lens.xyz/) - Lens Protocol is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users. Built on Polygon/Ethereum chains.
-* [LibP2P](https://libp2p.io/) - A decentralized networking stack and library modularized out of The IPFS Project, and bundled separately for other tools to use
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
 * [Mina Protocol](https://github.com/MinaProtocol/mina) - Mina is a new cryptocurrency with a constant size blockchain, improving scaling while maintaining decentralization and security (Javascript/Browser)
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
@@ -183,11 +185,19 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Shelter Protocol](https://shelterprotocol.net/en/introduction/) -The Shelter Protocol is a protocol for creating end-to-end encrypted, federated, user-friendly web applications.
 * [Steem blockchain](https://steem.com/)
-* [Tor Onion Services](https://community.torproject.org/onion-services/overview/) - Onion services are services that can only be accessed over Tor. Running an Onion Service gives your users all the security of HTTPS with the added privacy benefits of Tor Browser. Can be used for decentralized applications, see Ricochet Refresh and Quiet listed above.
 * [Waku](https://our.status.im/waku-decentralized-communication-for-web3/) - Decentralized, off-chain communications channel for Web3
 * [WebRTC](https://webrtc.org/)
-* [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - Scalable routing as an encrypted IPv6 overlay network
+* [XMTP](https://github.com/xmtp/libxmtp) - A shared library encapsulating the core functionality of the XMTP messaging protocol, such as cryptography, networking, and language bindings. Full decentralization is on the [roadmap](https://xmtp.org/blog/journey-to-decentralization)
 * [Zot](https://zotlabs.org/help/en/about/about) - Used in Aether and Hubzilla platforms
+
+#### Decentralized Networking
+Decentralized networking/transport libraries and utilities
+
+* [CJDNS](https://github.com/cjdelisle/cjdns) - Encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing
+* [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
+* [LibP2P](https://libp2p.io/) - A decentralized networking stack and library modularized out of The IPFS Project, and bundled separately for other tools to use
+* [Tor Onion Services](https://community.torproject.org/onion-services/overview/) - Onion services are services that can only be accessed over Tor. Running an Onion Service gives your users all the security of HTTPS with the added privacy benefits of Tor Browser. Can be used for decentralized applications, see Ricochet Refresh and Quiet listed above.
+* [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - Scalable routing as an encrypted IPv6 overlay network
 
 #### Decentralized and Distributed Databases
 * [ClickHouse](https://clickhouse.tech/) - Distributed SQL OLAP DB
@@ -211,6 +221,25 @@ These are the underlying decentralized protocols powering the dapps and platform
 
 #### Decentralized Search and Indexing
 * [Admarus](https://github.com/Mubelotix/admarus) - Peer-to-Peer Search Engine for IPFS
+
+#### Decentralized AI
+AI and machine learning libraries and resources for what is often called "Federated Learning" and sometimes "Decentralized AI" among other terms. AI techniques that can work on data that is separate/private and possibly held on user's edge devices (e.g. smartphones).
+
+* [Awesome Federated Machine Learning](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning#enterprise-grade) - A good "awesome" compendium: Everything about federated learning, including research papers, books, codes, tutorials, videos and beyond. This section in particular links to the most notable "enterprise" quality libraries/frameworks. How can these be adapted for decentralized social media?
+
+* [FATE](https://github.com/FederatedAI/FATE) - An Industrial Grade Federated Learning Framework
+* [FedLearner](https://github.com/bytedance/fedlearner) - A multi-party collaborative machine learning framework
+* [FedML](https://github.com/FedML-AI/FedML) - The federated learning and analytics library enabling secure and collaborative machine learning on decentralized data anywhere at any scale. Supporting large-scale cross-silo federated learning, cross-device federated learning on smartphones/IoTs, and research simulation. MLOps and App Marketplace are also enabled.
+* [FederatedScope](https://github.com/alibaba/FederatedScope) - An easy-to-use federated learning platform
+* [Flower](https://github.com/adap/flower) - A Friendly Federated Learning Framework
+* [IBM Federated Learning Lib](https://github.com/IBM/federated-learning-lib) - A library for federated learning (a distributed machine learning process) in an enterprise environment
+* [NVFlare](https://github.com/NVIDIA/NVFlare) - NVIDIA Federated Learning Application Runtime Environment
+* [OpenFL](https://github.com/securefederatedai/openfl) - An open framework for Federated Learning
+* [PaddleFL](https://github.com/PaddlePaddle/PaddleFL) - Federated Deep Learning in PaddlePaddle
+* [SecretFlow](https://github.com/secretflow/secretflow) - A unified framework for privacy-preserving data analysis and machine learning
+* [Syft](https://github.com/OpenMined/PySyft) - Perform data science on data that remains in someone else's server
+* [TensorFlow Federated](https://github.com/tensorflow/federated) - A framework for implementing federated learning
+
 
 #### Decentralized Publishing
 * [Distributed Press](https://github.com/hyphacoop/api.distributed.press) - An open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like Hypercore and IPFS.
@@ -259,11 +288,13 @@ fine-grained decentralized access control based on properties or attributes.
 * [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - Directed acyclic graph
 * [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) Decentralized autonomous organization
 * [Data-centric Security](https://en.wikipedia.org/wiki/Data-centric_security) - Also called "Data Defending Itself"
+* [Decentralization for Web3 Builders](https://a16zcrypto.com/posts/article/web3-decentralization-models-framework-principles-how-to/) - Specific models and principles of decentralization gleaned from the past several years of working closely with crypto founders, to guide web3 builders tackling what decentralization means in practice, across several use cases
 * [DIDs](https://medium.com/moxystudio/the-need-for-decentralized-identity-4d369408e10e) Decentralized Identifiers
 * [DHTs](https://en.wikipedia.org/wiki/Distributed_hash_table) - Distributed Hash Tables
 * [Double-ratchet encryption](https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm) - Private messaging with "future secrecy"
 * [Decentralized AI](https://towardsdatascience.com/everything-you-need-to-know-about-decentralized-ai-3abdb052324b)
 * [End-to-End Encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)
+* [Federated LEarning](https://en.wikipedia.org/wiki/Federated_learning)
 * [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
 * [MegOlm](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md) - A double-ratchet encryption algorithm used by Matrix for private group messaging
 * [Object Capability](https://en.wikipedia.org/wiki/Object-capability_model) - An access control approach consistent with the actor model of decentralized/concurrent computing. See also some [introductory slides](http://www.cis.syr.edu/~wedu/Teaching/CompSec/LectureNotes_New/Capability.pdf)
