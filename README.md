@@ -74,7 +74,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
 * [OddSDK](https://github.com/oddsdk) - ODD SDK is Fission's true local-first, edge computing stack. ODD SDK empowers you to build fully distributed web applications with auth and storage without needing a complex backend
 * [Sia](https://github.com/SiaFoundation/siad) - A decentralized cloud storage platform.
-* [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities
+* [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities. Read about [The Heart of Spritely: Distributed Objects and Capability Security](https://spritely.institute/static/papers/spritely-core.html) here.
 * [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
 * [Textile platform](https://textile.io/) - Using IPFS
 
@@ -167,6 +167,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
 * [CACAO](https://github.com/ceramicnetwork/cacao) - Chain-agnostic Object Capabilities (OCAP), created using EIP-4361 (or similar for other blockchains), as an [IPLD](https://github.com/ipld/ipld) object. Can work on content addressable storage like IPFS.
+* [Circom](https://github.com/iden3/circom) - a novel domain-specific language for defining arithmetic circuits that can be used to generate zero-knowledge proof, with available compiler.
 * [Dat](https://www.datprotocol.com/) - A mutable, identity addressed file/data sharing protocol
 * [DIDComm](https://github.com/decentralized-identity/didcomm-messaging) - The purpose of DIDComm Messaging is to provide a secure, private communication methodology built atop the decentralized design of DIDs (see below). Intended to work over any transport.
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
@@ -180,6 +181,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
 * [Mina Protocol](https://github.com/MinaProtocol/mina) - Mina is a new cryptocurrency with a constant size blockchain, improving scaling while maintaining decentralization and security (Javascript/Browser)
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
+* [Noir](https://github.com/noir-lang/awesome-noir) - Noir is a Domain Specific Language for SNARK proving systems. It has been designed to use any ACIR compatible proving system. [NoirJS](https://noir-lang.org/noir_js/) is a TypeScript library that make it easy to use Noir on your dapp, webapp, Node.js server, website, etc. Can work with any proving system, but works out of the box with [Barretenberg](https://github.com/AztecProtocol/barretenberg) proving backend.
 * [NOSTR](https://github.com/nostr-protocol/nostr) NOSTR stands for "Notes and Other Stuff Transmitted by Relays" and is an open protocol for censorship-resistant global networks. [Awesome NOSTR]( https://github.com/aljazceru/awesome-nostr)
 * [Oasis](https://www.oasislabs.com/) - Secure "secret contract" protocol extended from Ethereum
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
