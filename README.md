@@ -236,6 +236,7 @@ AI and machine learning libraries and resources for what is often called "Federa
 * [FederatedScope](https://github.com/alibaba/FederatedScope) - An easy-to-use federated learning platform
 * [Flower](https://github.com/adap/flower) - A Friendly Federated Learning Framework, designed to work with edge/mobile devices
 * [IBM Federated Learning Lib](https://github.com/IBM/federated-learning-lib) - A library for federated learning (a distributed machine learning process) in an enterprise environment
+* [MetisFL](https://github.com/NevronAI/metisfl) - a federated learning framework that allows developers to easily federate their machine learning workflows and train their models across distributed data without ever collecting the data in a centralized location.
 * [NVFlare](https://github.com/NVIDIA/NVFlare) - NVIDIA Federated Learning Application Runtime Environment
 * [OpenFL](https://github.com/securefederatedai/openfl) - An open framework for Federated Learning
 * [PaddleFL](https://github.com/PaddlePaddle/PaddleFL) - Federated Deep Learning in PaddlePaddle
