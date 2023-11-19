@@ -178,6 +178,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Holochain](https://holochain.org/)
 * [Hyperswarm](https://github.com/hyperswarm/hyperswarm) - A distributed networking stack for connecting peers.
 * [Lens Protocol](https://www.lens.xyz/) - Lens Protocol is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users. Built on Polygon/Ethereum chains.
+* [Loro](https://github.com/loro-dev/loro) - Reimagine state management with CRDTs. Easily enable collaboration and time-travel on your app.
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
 * [Mina Protocol](https://github.com/MinaProtocol/mina) - Mina is a new cryptocurrency with a constant size blockchain, improving scaling while maintaining decentralization and security (Javascript/Browser)
 * [MPL](https://github.com/automerge/mpl) - Using Automerge and WebRTC
@@ -223,6 +224,7 @@ Decentralized networking/transport libraries and utilities
 
 #### Decentralized Search and Indexing
 * [Admarus](https://github.com/Mubelotix/admarus) - Peer-to-Peer Search Engine for IPFS
+* [Kamilata](https://github.com/Mubelotix/kamilata) - Peer-to-Peer Search Engine System using the Kamilata protocol. Kamilata enables trustless search in open networks. This library can handle any type of data, and be easily integrated into your libp2p application. Powers the Adamarus IPFS search engine.
 
 #### Decentralized AI
 AI and machine learning libraries and resources for what is often called "Federated Learning" and sometimes "Decentralized AI" among other terms. AI techniques that can work on data that is separate/private and possibly held on user's edge devices (e.g. smartphones).
