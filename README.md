@@ -153,6 +153,8 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 * [Trezor](https://trezor.io/) Open-source hardware wallet/identity manager
 * [uPort](https://www.uport.me/) Ethereum wallet/identity manager
 * [Wallet Connect](https://walletconnect.org/) - Open protocol for connecting Wallets to Dapps
+* [zkEmail](https://github.com/zkemail) - Proof of Email, using Circom & Ethereum. Email a relayer in order to transfer money or transact on Ethereum, anonymously. Peer to peer marketplace for decentralized on ramp/offramp to ethereum via Venmo and other payment services.
+* [zkLocus](https://github.com/iluxonchik/zkLocus) - zkLocus enables users to authenticate their geographical location with service providers while preserving their privacy. Runs on Mina Protocol (see below).
 
 ##### Meta
 * [Decentralized Identity Foundation](https://identity.foundation/)
@@ -169,7 +171,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [CACAO](https://github.com/ceramicnetwork/cacao) - Chain-agnostic Object Capabilities (OCAP), created using EIP-4361 (or similar for other blockchains), as an [IPLD](https://github.com/ipld/ipld) object. Can work on content addressable storage like IPFS.
 * [Circom](https://github.com/iden3/circom) - a novel domain-specific language for defining arithmetic circuits that can be used to generate zero-knowledge proof, with available compiler.
 * [Dat](https://www.datprotocol.com/) - A mutable, identity addressed file/data sharing protocol
-* [DIDComm](https://github.com/decentralized-identity/didcomm-messaging) - The purpose of DIDComm Messaging is to provide a secure, private communication methodology built atop the decentralized design of DIDs (see below). Intended to work over any transport.
+* [DIDComm](https://github.com/decentralized-identity/didcomm-messaging) - The purpose of DIDComm Messaging is to provide a secure, private communication methodology built atop the decentralized design of DIDs (see below). Intended to work over any transport. Here is an official working [demo](https://github.com/decentralized-identity/didcomm-demo).
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
 * [Farcaster](https://github.com/farcasterxyz/protocol) - Farcaster is a community-created protocol for building decentralized social applications. Developers can use Farcaster to build new, decentralized social networks, letting the protocol deal with the hard problems of managing user identities and data. Users can create a new account that they control and sign up to use any of these applications. Users are always in control of their data and identity and can switch freely between applications.
@@ -216,6 +218,7 @@ Decentralized networking/transport libraries and utilities
 * [mvSQLite](https://github.com/losfair/mvsqlite) - Distributed SQLite that runs on top of FoundationDB.
 * [OrbitDB](https://github.com/orbitdb/orbit-db) - Distributed DB implementing CRDTs on IPFS
 * [Nebula](https://github.com/vesoft-inc/nebula) - Distributed graph database in C++
+* [SQLSync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
 * [SurrealDB](https://github.com/surrealdb/surrealdb) - A scalable, distributed, embeddable, collaborative, document-graph database, for the realtime web.
 * [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Distributed least authority object capabilities database in Python
 * [TiDB](https://github.com/pingcap/tidb) - TiDB is an open-source, cloud-native, distributed, MySQL-Compatible database for elastic scale and real-time analytics. Can be run in browser [using webassembly](https://www.pingcap.com/blog/tidb-in-the-browser-running-a-golang-database-on-webassembly/)
