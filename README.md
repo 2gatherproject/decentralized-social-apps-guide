@@ -53,6 +53,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Lemmy](https://github.com/LemmyNet/lemmy) - An alternative to Reddit. Curently only federated, but because it is in Rust it could be ported to WASM and made fully decentralized, like Matrix (see below)
 * [Matrix Social](https://codeberg.org/imbev/matrix-social) A Matrix "Social Media" client
 * [MinesTrix](https://gitlab.com/minestrix/minestrix-flutter) - A social media app (Flutter: Android, iOS and web) based off of the Matrix platform (see more below), still in alpha.
+* [Minttner](https://github.com/MintterHypermedia/mintter) - An app for knowledge communities. Powered by the Hypermedia protocol.
 * [NOSTR Clients (multiple)](https://github.com/aljazceru/awesome-nostr#clients) NOSTR is an open protocol for censorship-resistant global networks, and this lists multiple clients that support it
 * [Open Super Dapp](https://github.com/2gatherproject/open-super-dapp-android) - Your gateway to the new digital commons. A "super app" with integrated mobile messenger, Ethereum wallet, and Web 3.0 browser built on open, decentralized, and encrypted protocols. Pre alpha. Seeking developers/supporters.
 * [Open Wallet Foundation](https://github.com/openwallet-foundation) - The mission of the OWF is to develop an open source engine to enable secure and interoperable multi-purpose wallets anyone can use to build solutions.
@@ -62,6 +63,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Ricochet Refresh](https://github.com/blueprint-freespeech/ricochet-refresh/tree/main) - Ricochet Refresh is the new updated version of [Ricochet](https://github.com/ricochet-im/ricochet), supported by Blueprint for Free Speech. Ricochet is anonymous, metadata-resistant instant messaging
 * [Quiet](https://github.com/TryQuiet/quiet) - A private, p2p alternative to Slack and Discord built on Tor & IPFS
 * [Textile Photos](https://github.com/textileio/photos) - A photo sharing app using Textile (See below)
+* [Veilid Chat](https://veilid.com/chat/) - VeilidChat is a demo of the Veilid framework and protocol working.
 * [Vocdoni](https://blog.vocdoni.io/vocdoni-technical-overview-v1/) - A voting and collaboration platform, affiliated with Aragon, on an Ethereum compatible sidechain
 
 
@@ -179,6 +181,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
 * [Hyperswarm](https://github.com/hyperswarm/hyperswarm) - A distributed networking stack for connecting peers.
+* [Iroh](https://github.com/n0-computer/iroh) - Iroh is a protocol for syncing & moving bytes. Bytes of any size, on any device. At its core, it's a peer-2-peer network built on a magic socket that establishes QUIC connections between peers. Peers request and provide blobs of opaque bytes that are incrementally verified by their BLAKE3 hash during transfer. Emerged as a [fork/adaptation of IPFS](https://iroh.computer/docs/ipfs). [Example usage](https://iroh.computer/sendme) to send P2P files.
 * [Lens Protocol](https://www.lens.xyz/) - Lens Protocol is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users. Built on Polygon/Ethereum chains.
 * [Loro](https://github.com/loro-dev/loro) - Reimagine state management with CRDTs. Easily enable collaboration and time-travel on your app.
 * [IPFS](https://ipfs.io/) - An immutable, content addressed file/data sharing protocol. libp2p based
@@ -190,8 +193,11 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Secure Scuttlebut](https://www.scuttlebutt.nz/)
 * [Shelter Protocol](https://shelterprotocol.net/en/introduction/) -The Shelter Protocol is a protocol for creating end-to-end encrypted, federated, user-friendly web applications.
 * [Steem blockchain](https://steem.com/)
+* [Veilid](https://gitlab.com/veilid/veilid) - Veilid is a peer-to-peer network for easily sharing various kinds of data.
+Veilid is designed with a social dimension in mind, so that each user can have their personal content stored on the network, but also can share that content with other people of their choosing, or with the entire world if they want.
 * [Waku](https://our.status.im/waku-decentralized-communication-for-web3/) - Decentralized, off-chain communications channel for Web3
 * [WebRTC](https://webrtc.org/)
+* [Winden](https://github.com/LeastAuthority/winden) - Winden is a free web application for secure, fast, and easy file transfers between devices in real-time. Winden is identity-free, meaning that senders and receivers don't need to know each other's identity to use it, or to reveal their identity. Built on the [Magic Wormhole Protocol](https://magic-wormhole.readthedocs.io/en/latest/).
 * [XMTP](https://github.com/xmtp/libxmtp) - A shared library encapsulating the core functionality of the XMTP messaging protocol, such as cryptography, networking, and language bindings. Full decentralization is on the [roadmap](https://xmtp.org/blog/journey-to-decentralization)
 * [Zot](https://zotlabs.org/help/en/about/about) - Used in Aether and Hubzilla platforms
 
@@ -318,7 +324,7 @@ fine-grained decentralized access control based on properties or attributes.
 * [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
 * [TEEs](https://en.wikipedia.org/wiki/Trusted_execution_environment) Trusted execution environments, used in current versions of secure/private smart contracts
 * [Verifiable Credentials](https://en.wikipedia.org/wiki/Verifiable_credentials)
-* [zk-SNARKs and zk-STARKs](https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof) - Non-interactive zero-knowledge proofs. zk-SNARKS require trusted third-party setup, zk-STARKs do not.
+* [zk-SNARKs and zk-STARKs](https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof) - Non-interactive zero-knowledge proofs. zk-SNARKS require trusted third-party setup, zk-STARKs do not. The [Moonmath Manual](https://github.com/LeastAuthority/moonmath-manual) seeks to make ZK math understandable to a broader audience.
 
 ### Related Awesome Lists
 * [Decentralized ID](https://github.com/Decentralized-ID/decentralized-id.github.io)
