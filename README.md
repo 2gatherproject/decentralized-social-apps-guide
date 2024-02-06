@@ -63,6 +63,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Ricochet Refresh](https://github.com/blueprint-freespeech/ricochet-refresh/tree/main) - Ricochet Refresh is the new updated version of [Ricochet](https://github.com/ricochet-im/ricochet), supported by Blueprint for Free Speech. Ricochet is anonymous, metadata-resistant instant messaging
 * [Quiet](https://github.com/TryQuiet/quiet) - A private, p2p alternative to Slack and Discord built on Tor & IPFS
 * [Textile Photos](https://github.com/textileio/photos) - A photo sharing app using Textile (See below)
+* [Third Room](https://github.com/matrix-org/thirdroom/) - Open, decentralised, immersive worlds built on Matrix
 * [Veilid Chat](https://veilid.com/chat/) - VeilidChat is a demo of the Veilid framework and protocol working.
 * [Vocdoni](https://blog.vocdoni.io/vocdoni-technical-overview-v1/) - A voting and collaboration platform, affiliated with Aragon, on an Ethereum compatible sidechain
 
@@ -75,6 +76,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
 * [OddSDK](https://github.com/oddsdk) - ODD SDK is Fission's true local-first, edge computing stack. ODD SDK empowers you to build fully distributed web applications with auth and storage without needing a complex backend
+* [Qortal](https://github.com/Qortal/qortal) - Community-Driven and Developed, Completely Custom Built, and Truly Decentralized. With its Unique Egalitarian Consensus Protocol, Leveling System, and Blockchain-Secured Distributed Data Network, QORTAL is Designed To Create A Completely Secure and Liberating Digital World. [More info](https://qortal.org/)
 * [Sia](https://github.com/SiaFoundation/siad) - A decentralized cloud storage platform.
 * [Spritely](https://spritelyproject.org/) - An alpha ecosystem of protocols and projects leveraging ActivityPub and Object Capabilities. Read about [The Heart of Spritely: Distributed Objects and Capability Security](https://spritely.institute/static/papers/spritely-core.html) here.
 * [SecuShare](https://secushare.org/) - decentralized messaging on GNU:Net (see below)
@@ -176,7 +178,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [DIDComm](https://github.com/decentralized-identity/didcomm-messaging) - The purpose of DIDComm Messaging is to provide a secure, private communication methodology built atop the decentralized design of DIDs (see below). Intended to work over any transport. Here is an official working [demo](https://github.com/decentralized-identity/didcomm-demo).
 * [Enigma](https://enigma.co/) - Secure "secret contract" protocol extended from Ethereum. Founders of [Secret Network](https://scrt.network/)
 * [Ethereum blockchain](https://www.ethereum.org/)
-* [Farcaster](https://github.com/farcasterxyz/protocol) - Farcaster is a community-created protocol for building decentralized social applications. Developers can use Farcaster to build new, decentralized social networks, letting the protocol deal with the hard problems of managing user identities and data. Users can create a new account that they control and sign up to use any of these applications. Users are always in control of their data and identity and can switch freely between applications.
+* [Farcaster](https://github.com/farcasterxyz/protocol) - Farcaster is a community-created protocol for building decentralized social applications. Developers can use Farcaster to build new, decentralized social networks, letting the protocol deal with the hard problems of managing user identities and data. Users can create a new account that they control and sign up to use any of these applications. Users are always in control of their data and identity and can switch freely between applications. Information about [Farcaster Frames](https://blog.spindl.xyz/p/why-farcaster-frames-are-important).
 * [Fluid Framework](https://fluidframework.com/docs/) - for managing state for collaborative decentralized apps. Requires servers for operation.
 * [Gun](https://github.com/amark/gun) - P2P CRDT protocol implementation
 * [Holochain](https://holochain.org/)
@@ -195,7 +197,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [Steem blockchain](https://steem.com/)
 * [Veilid](https://gitlab.com/veilid/veilid) - Veilid is a peer-to-peer network for easily sharing various kinds of data.
 Veilid is designed with a social dimension in mind, so that each user can have their personal content stored on the network, but also can share that content with other people of their choosing, or with the entire world if they want.
-* [Waku](https://our.status.im/waku-decentralized-communication-for-web3/) - Decentralized, off-chain communications channel for Web3
+* [Waku](https://our.status.im/waku-decentralized-communication-for-web3/) - Decentralized, off-chain communications channel for Web3. [Demo Poll App on Waku](https://github.com/wolz-CODElife/waku-vue-poll).
 * [WebRTC](https://webrtc.org/)
 * [Winden](https://github.com/LeastAuthority/winden) - Winden is a free web application for secure, fast, and easy file transfers between devices in real-time. Winden is identity-free, meaning that senders and receivers don't need to know each other's identity to use it, or to reveal their identity. Built on the [Magic Wormhole Protocol](https://magic-wormhole.readthedocs.io/en/latest/).
 * [XMTP](https://github.com/xmtp/libxmtp) - A shared library encapsulating the core functionality of the XMTP messaging protocol, such as cryptography, networking, and language bindings. Full decentralization is on the [roadmap](https://xmtp.org/blog/journey-to-decentralization)
@@ -324,6 +326,7 @@ fine-grained decentralized access control based on properties or attributes.
 * [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) - A type of attack on a decentralized system
 * [TEEs](https://en.wikipedia.org/wiki/Trusted_execution_environment) Trusted execution environments, used in current versions of secure/private smart contracts
 * [Verifiable Credentials](https://en.wikipedia.org/wiki/Verifiable_credentials)
+* [Verifiable Random Functions](https://en.wikipedia.org/wiki/Verifiable_random_function) - Useful when randomness is needed in a deterministic proof.
 * [zk-SNARKs and zk-STARKs](https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof) - Non-interactive zero-knowledge proofs. zk-SNARKS require trusted third-party setup, zk-STARKs do not. The [Moonmath Manual](https://github.com/LeastAuthority/moonmath-manual) seeks to make ZK math understandable to a broader audience.
 
 ### Related Awesome Lists
