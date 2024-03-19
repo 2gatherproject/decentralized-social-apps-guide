@@ -40,17 +40,19 @@ This is a curated list. More developed apps and platforms with more features and
 
 * [Acorn](https://github.com/lightningrodlabs/acorn) - Acorn is an open-source, peer-to-peer project management application, built with Holochain.
 * [Aether](https://getaether.net/) - Open source, self-governing communities with auditable moderation and mod elections
-* [Bluesky](https://github.com/bluesky-social/social-app) - An app and project originally spun out of Twitter, which is building the AT Protocol (see below), a new foundation for public conversation and social networking which gives creators independence from platforms, developers the freedom to build, and users a choice in their experience.
+* [Bluesky](https://github.com/bluesky-social/social-app) - An app and project originally spun out of Twitter, which is building the AT Protocol (see below), a new foundation for public conversation and social networking which gives creators independence from platforms, developers the freedom to build, and users a choice in their experience. They have also open sourced their [Personal Data Server](https://github.com/bluesky-social/pds) and [Ozone](https://github.com/bluesky-social/ozone), a web interface for content labeling.
 * [Briar](https://briarproject.org/) - WhatsApp clone with security focus. GPL licensed
 * [Circles](https://github.com/KombuchaPrivacy/circles-ios) - A social media app (iOS only) based off of the Matrix platform (see more below), currently in beta.
 * [Effectio](https://github.com/effektio/effektio) Community Communication and casual social organising platform, built on top of Matrix protocol.
 * [Element](https://element.io/), formerly known as Riot IM, is the reference messaging client for the Matrix platform. Matrix is currently federated but a fully decentralized version is under active development (see below). Strongly private group messaging using MegOlm double-ratchet. Backed by [Automattic](https://matrix.org/blog/2020/05/21/welcoming-automattic-to-matrix), the creators of Wordpress, among others. Used by the [French](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app) and [German](https://www.heise.de/newsticker/meldung/Bundeswehr-setzt-kuenftig-auf-Matrix-als-Messenger-4719474.html) governments and other clients. Apache 2.0 licensed
 * [DTube](https://d.tube/) - Youtube clone using Steemit blockchain and IPFS. GPL licensed
 * [Group Income](https://github.com/okTurtles/group-income) - Voluntary Basic Income system that's decentralized and end-to-end encrypted. Uses Shelter Protocol (see below).
+* [Ibis](https://github.com/Nutomic/ibis) - A federated alternative to Wikipedia. Written in Rust, could be ported to WASM and made fully decentralized.
 * [Iris](https://irislib.github.io/) - Social sharing using Gun and IPFS
 * [Jami](https://jami.net/) - WhatsApp clone
 * [Junto](https://junto.foundation/) - Social network on Holochain
 * [Lemmy](https://github.com/LemmyNet/lemmy) - An alternative to Reddit. Curently only federated, but because it is in Rust it could be ported to WASM and made fully decentralized, like Matrix (see below)
+* [Manyverse](https://gitlab.com/staltz/manyverse) - A social network built on the Secure Scuttlebut protocol.
 * [Matrix Social](https://codeberg.org/imbev/matrix-social) A Matrix "Social Media" client
 * [MinesTrix](https://gitlab.com/minestrix/minestrix-flutter) - A social media app (Flutter: Android, iOS and web) based off of the Matrix platform (see more below), still in alpha.
 * [Minttner](https://github.com/MintterHypermedia/mintter) - An app for knowledge communities. Powered by the Hypermedia protocol.
@@ -62,6 +64,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [Patchwork](https://github.com/ssbc/patchwork) - Social network on Secure Scuttlebut. AGPL licensed
 * [Ricochet Refresh](https://github.com/blueprint-freespeech/ricochet-refresh/tree/main) - Ricochet Refresh is the new updated version of [Ricochet](https://github.com/ricochet-im/ricochet), supported by Blueprint for Free Speech. Ricochet is anonymous, metadata-resistant instant messaging
 * [Quiet](https://github.com/TryQuiet/quiet) - A private, p2p alternative to Slack and Discord built on Tor & IPFS
+* [Status.im](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser
 * [Textile Photos](https://github.com/textileio/photos) - A photo sharing app using Textile (See below)
 * [Third Room](https://github.com/matrix-org/thirdroom/) - Open, decentralised, immersive worlds built on Matrix
 * [Veilid Chat](https://veilid.com/chat/) - VeilidChat is a demo of the Veilid framework and protocol working.
@@ -153,7 +156,6 @@ Identity services are a key requirement of most social/collaborative apps. Decen
 * [OpenABE](https://github.com/zeutro/openabe) - Open source cryptographic library with attribute-based encryption implementations in C/C++
 * [Rabe](https://github.com/Fraunhofer-AISEC/rabe) - Rabe is an Attribute Based Encryption library, written in Rust
 * [Reclaim:ID](https://reclaimid.gitlab.io/) - Decentralized identity on GNU:net with OpenID interface
-* [Status.im](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser
 * [Trezor](https://trezor.io/) Open-source hardware wallet/identity manager
 * [uPort](https://www.uport.me/) Ethereum wallet/identity manager
 * [Wallet Connect](https://walletconnect.org/) - Open protocol for connecting Wallets to Dapps
