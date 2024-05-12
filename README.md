@@ -76,6 +76,7 @@ This is a curated list. More developed apps and platforms with more features and
 * [3box](https://3box.io/) Nascent social networking platform using Ethereum and OrbitDB (IPFS-based)
 * [DSNP](https://www.dsnp.org/) Decentralized Social Network Protocol - a public social graph completely disconnected from financial incentives from [Amplica Labs](https://amplica.io/) and [Project Liberty](https://projectliberty.io/), built on [Frequency](https://www.frequency.xyz/) and [Polkadot](https://polkadot.network/)
 * [Holepunch](https://docs.holepunch.to/) - Holepunch equips developers with a powerful suite of independent components to effortlessly construct peer-to-peer applications. Includes information on Hypercore, Hyperbee, Hyperdrive, Autobase, HyperDHT, and Hyperswarm open source projects.
+* [Homestar](https://github.com/ipvm-wg/homestar/) - The individual node that makes up the Everywhere Computer network on the IPVM (Interplanetary Virtual Machine)
 * [Mix platform](https://www.mix-blockchain.org/) - Using Ethereum and IPFS
 * [Matrix platform](https://matrix.org/) - Matrix is an extendable social messaging platform that is currently federated/distributed, but they are looking into a [fully decentralized P2P version](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) with an innovative approach that puts the federated server onto people's devices! Something to watch - A [discussion room](https://matrix.to/#/#p2p:matrix.org) is available to follow developments. Strongly private group messaging using MegOlm double-ratchet. Supports [bridges](https://matrix.org/bridges/) to existing "walled garden" corporate networks and custom [bots](https://matrix.org/bots/). Matrix is governed through an transparent, participatory process overseen by the [Matrix Foundation](https://matrix.org/foundation/). Element is Matrix's reference client (see above).
 * [OddSDK](https://github.com/oddsdk) - ODD SDK is Fission's true local-first, edge computing stack. ODD SDK empowers you to build fully distributed web applications with auth and storage without needing a complex backend
@@ -172,6 +173,7 @@ These are the underlying decentralized protocols powering the dapps and platform
 * [ActivityPub](https://activitypub.rocks/)
 * [AT Protocol](https://github.com/bluesky-social/atproto) - The Authenticated Transfer Protocol is the new decentralized protocol developed by Bluesky (a project spun out of Twitter), and is a federated protocol for large-scale distributed social applications.
 * [Automerge](https://github.com/automerge/automerge) - CRDT implementation
+* [Beckn](https://github.com/beckn/protocol-specifications) - Core protocol specification for peer-to-peer consumer-provider interaction
 * [Bitcoin blockchain](https://bitcoin.org/en/)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
 * [CACAO](https://github.com/ceramicnetwork/cacao) - Chain-agnostic Object Capabilities (OCAP), created using EIP-4361 (or similar for other blockchains), as an [IPLD](https://github.com/ipld/ipld) object. Can work on content addressable storage like IPFS.
@@ -210,6 +212,7 @@ Decentralized networking/transport libraries and utilities
 
 * [CJDNS](https://github.com/cjdelisle/cjdns) - Encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing
 * [GNU:Net](https://gnunet.org/en/) - Private, decentralized networking stack with file sharing, messaging, etc. layers. An official GNU project.
+* [I2P](https://geti2p.net/en/) - A fully encrypted private network layer. It protects your activity and location.
 * [LibP2P](https://libp2p.io/) - A decentralized networking stack and library modularized out of The IPFS Project, and bundled separately for other tools to use
 * [Tor Onion Services](https://community.torproject.org/onion-services/overview/) - Onion services are services that can only be accessed over Tor. Running an Onion Service gives your users all the security of HTTPS with the added privacy benefits of Tor Browser. Can be used for decentralized applications, see Ricochet Refresh and Quiet listed above.
 * [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - Scalable routing as an encrypted IPv6 overlay network
