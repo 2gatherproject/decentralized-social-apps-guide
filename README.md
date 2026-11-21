@@ -1,5 +1,7 @@
 ## Awesome Decentralized, Open-Source Social Networking and Collaboration Applications and Platforms
 
+*Created in 2019 and maintained by [Brendan A. Miller](https://brendanmiller.com) of the [2GATHER](https://github.com/2gatherproject) project.*
+
 ### Contents
 * [Purpose](#purpose)
 * [Applications and Platforms](#applications-and-platforms)
